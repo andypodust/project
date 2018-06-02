@@ -1,9 +1,15 @@
+html {
+    overflow-x: hidden;
+}
 @import "vars";
 @import "fonts";
 @import "libs";
 @import "mixins";
 
 @import "./components/_header.scss";
+@import "./components/_section-def.scss";
+@import "./components/_section-faq.scss";
+@import "./components/_section-get.scss";
 
 
 

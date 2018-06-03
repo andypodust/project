@@ -7,9 +7,14 @@ html {
 @import "mixins";
 
 @import "./components/_header.scss";
+@import "./components/_section-fullstack.scss";
+@import "./components/_section-calendar.scss";
+@import "./components/_section-reviews.scss";
+@import "./components/_section-prices.scss";
 @import "./components/_section-def.scss";
 @import "./components/_section-faq.scss";
 @import "./components/_section-get.scss";
+@import "./components/_section-for-you.scss";
 
 
 

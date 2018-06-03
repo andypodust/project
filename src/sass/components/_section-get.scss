@@ -154,7 +154,7 @@
 .article_right-text_secondary>span {
     font-weight: 900;
 }
-.link_begin {
+.link_begin_get {
     margin: 0 auto;
     display: block;
     text-align: center;
@@ -171,7 +171,7 @@
     border-radius: 5px;
     box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.29);
 }
-.link_begin:hover {
+.link_begin_get:hover {
     box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.60);
     transition-duration: 0.2s;
     text-decoration: none;
@@ -474,7 +474,7 @@
         top: -4px;
         left: 92px;
     }
-    .link_begin::after {
+    .link_begin_get::after {
         content: '';
         width: 90px;
         border-bottom: 7px solid #fafafa;
@@ -482,7 +482,7 @@
         top: 772px;
         left: 375px;
     }
-    .link_begin {
+    .link_begin_get {
         font-size: 16px;
         width: 320px;
     }

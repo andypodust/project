@@ -13,7 +13,7 @@
     margin: 0 auto;
 }
 .wrapper_blue-section-title {
-    font-family: $primary-font;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-size: 22px;
     text-align: center;
@@ -36,7 +36,7 @@
 .wrapper_blue-section-text_start,
 .wrapper_blue-section-text_garant,
 .wrapper_blue-section-text_time {
-    font-family: $primary-font;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
@@ -91,7 +91,7 @@
     box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.29)
 }
 .wrapper_blue-section-menu-item-title {
-    font-family: $secondary-font;
+    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     display: block;
     height: 85px;
@@ -105,7 +105,7 @@
     color: #00bcd4;
 }
 .wrapper_blue-section-submenu_item {
-    font-family: $secondary-font;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     text-align: center;
     margin-bottom: 20px;
@@ -117,7 +117,7 @@
 .wrapper_blue-section-submenu-text {
     width: 260px;
     margin: 0 auto;
-    font-family: $secondary-font;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     text-align: center;
     text-transform: uppercase;
@@ -130,7 +130,7 @@
 .wrapper_blue-section-submenu-list-header {
     display: block;
     margin: 0 auto;
-    font-family: $secondary-font;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     text-align: center;
     text-transform: uppercase;
@@ -163,7 +163,7 @@
     margin: 0 auto
 }
 .wrapper_blue-section-submenu-list-item {
-    font-family: $extra-font;
+    font-family: 'Ubuntu Mono', monospace;
     width: 270px;
     height: 65px;
     margin: 0 auto;
@@ -174,7 +174,7 @@
     padding-top: 20px;
 }
 .wrapper_blue-section-submenu-text_value {
-    font-family: $primary-font;
+    font-family: 'Montserrat', sans-serif;
     display: block;
     text-align: center;
     font-size: 36px;
@@ -191,7 +191,7 @@
     margin: 0 auto;
     display: block;
     text-align: center;
-    font-family: $primary-font;
+    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     font-weight: 800;
     text-transform: uppercase;
@@ -209,7 +209,7 @@
     transition-duration: 0.2s
 }
 .wrapper_blue-section-payment-header {
-    font-family: $secondary-font;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 14px;
     text-transform: uppercase;
     text-align: center;
@@ -228,7 +228,7 @@
     background-color: #2a292c;
     border-bottom: #464648 1px solid;
     text-align: center;
-    font-family: $extra-font;
+    font-family: 'Ubuntu Mono', monospace;
 }
 .wrapper_bluer-section-payment-list_item::before {
     display: block;
@@ -295,7 +295,9 @@
     .wrapper_bluer-section-payment-list_item {
         border-right: #464648 1px solid;
         border-bottom: none
-       
+    }
+    .wrapper_bluer-section-payment-list_item:nth-child(3)::before {
+        background: url(../img/stopwatch.png) no-repeat 72px 21px;
     }
 
 }
@@ -303,8 +305,9 @@
     .wrapper_blue {
         background: url(../img/wrapper-bg-left.png) no-repeat left 400px,
                     url(../img/wrapper-bg-right.png) no-repeat right 600px,
-                    url(../img/dark-bg.png)
+                    url(../img/dark-bg.png);
     }
+    
     .wrapper_blue-section {
         width: 1150px;
     }
@@ -382,10 +385,14 @@
     }
     .wrapper_bluer-section-payment-list_item::before {
         display: inline-block;
+        width: 85px;
         text-align: center;
         position: relative;
         top: 15px;
         left: -10px;
+    }
+    .wrapper_bluer-section-payment-list_item:nth-child(3)::before {
+        background: url(../img/stopwatch.png) no-repeat 0px 20px;
     }
    
 }

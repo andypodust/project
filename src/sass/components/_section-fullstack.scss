@@ -12,6 +12,9 @@
     margin: 0 auto;
     width: 290px
 }
+.desktop_bg-text {
+    display: none
+}
 
 .wrapper_grey-section-article_top-title {
     font-family: $primary-font;
@@ -256,15 +259,27 @@
         clip-path: polygon(0 0, 100% 0, 100% 69%, 0 100%);
         position: relative;
     }
-    .desktop_bg::after {
-        font-family: $extra-font;
+    
+    .desktop_bg-text {
         display: block;
-        content: "</p> </body> </html>";
-        transform: rotateZ(90deg);
+        font-family: $extra-font;
+        transform: rotate(90deg);
         position: absolute;
-        top: 1000px;
         word-spacing: 30px
-
+    }
+    .opening-text {
+        width: 520px;
+        left: 1500px;
+        top: 350px
+    }
+    .desktop_bg-text-blue {
+        color: #00bcd4;
+        word-spacing: 5px;
+        padding-right: 30px
+    }
+    .closing-text {
+        left: 200px;
+        top: 1200px;
     }
     .wrapper_grey-section {
         position: relative;

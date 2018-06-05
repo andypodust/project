@@ -17,7 +17,7 @@
     text-align: center;
     width: 100%;
     margin: 0 auto;
-    padding: 50px 0 50px 0;
+    padding-bottom: 50px;
     margin-bottom: 30px;
 }
 .wrapper_suit-section-title::before {
@@ -192,7 +192,7 @@
     }
     .wrapper_suit-section-title::after {
         left: 150px;
-        top: 150px;
+        // top: 150px;
         background-size: 35%
     }
     .wrapper_suit-section-title {

@@ -1,0 +1,773 @@
+@import url(normalize.css);
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper_white {
+	width: 290px;
+	margin: 0 auto;
+}
+
+.wrapper_white-section_skills-title {
+	width: 210px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 25px;
+	line-height: 30px;
+	color: #242427;
+	position: relative;
+}
+
+.wrapper_white-section_skills-title:before {
+	content: "";
+	display: block;
+	width: 15px;
+	border-bottom: 2px solid #00bcd4;
+	position: absolute;
+	top: 23px;
+	left: 20px;
+}
+
+.wrapper_white-section_skills-title:after {
+	content: "";
+	display: block;
+	width: 150px;
+	border-bottom: 2px solid #242427;
+	margin: 15px auto 35px;
+}
+
+.wrapper_white-section_skills-list {
+	list-style: none;
+}
+
+.block-time {
+	list-style: none;
+	width: 185px;
+	margin: 0 auto 60px;
+}
+
+.block-time .block-time_item:first-of-type {
+	text-align: center;
+	font-size: 85px;
+	color: #00bcd4;
+	position: relative;
+}
+
+.block-time_item--after:after {
+	content: "";
+	display: block;
+	width: 150px;
+	border-bottom: 2px solid #242427;
+	margin: 15px auto 20px;
+}
+
+.block-time_item--before:before {
+	content: "Часа";
+	position: absolute;
+	top: 0;
+	right: 0;
+	transform: rotate(90deg);
+	font-size: 18px;
+	line-height: 24px;
+	color: #242427;
+}
+
+.block-time_item--befores:before {
+	content: "Часов";
+	position: absolute;
+	top: 0;
+	right: 0;
+	transform: rotate(90deg);
+	font-size: 18px;
+	line-height: 24px;
+	color: #242427;
+}
+
+.block-time .block-time_item:last-of-type {
+	padding-left: 15px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+/*---------------------------------------------------------*/
+.program-titles {
+	list-style: none;
+}
+
+.program-titles_title {
+	background-color: #eeeeee;
+	list-style: none;
+	padding-top: 30px;
+	border: 1px solid silver;
+	margin-bottom: 15px;
+}
+
+.section_skills-subtitle {
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+	color: #242427;
+	font-weight: 900;
+	margin-bottom: 45px;
+}
+
+.section_skills-subtitle--after:after {
+	content: "";
+	display: block;
+	width: 100%;
+	border-bottom: 2px solid #242427;
+	margin: 15px auto 0px;
+}
+
+.section_skills-submenu {
+	margin-bottom: 50px;
+}
+
+.section_skills-submenu-item {
+	background-color: #eeeeee;
+	list-style: none;
+	padding-top: 30px;
+	border: 1px solid silver;
+	margin-bottom: 15px;
+}
+
+.submenu-item_ol {
+	width: 210px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	list-style-type: decimal-leading-zero;
+}
+
+.block-html-title {
+	width: 170px;
+	margin: 0 auto 15px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 24px;
+	color: #242427;
+}
+
+.block-javascript-title {
+	width: 230px;
+	margin: 0 auto 15px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 24px;
+	color: #242427;
+}
+.block-react-title, .block-back-end-title, .block-soft-title{
+	width: 160px;
+	margin: 0 auto 15px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 24px;
+	color: #242427;
+}
+
+
+.section_skills-submenu-item-h3--after:after {
+	content: "";
+	display: block;
+	width: 70px;
+	border-bottom: 2px solid #00bcd4;
+	margin: 15px auto 25px;
+}
+
+.submenu-item-text {
+	margin-bottom: 25px;
+}
+.submenu-item-text:last-of-type {
+	margin-bottom: 0px;
+}
+
+.block-html-title-tablet {
+	display: none;
+}
+
+.skills {
+	display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+	.wrapper_white {
+		width: 690px;
+		/*outline: 1px solid red;*/
+		padding-bottom: 15px;
+	}
+	
+	.wrapper_white-section_skills-title {
+		width: 530px;
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+	.wrapper_white-section_skills-title:before {
+		content: "";
+		display: block;
+		width: 15px;
+		border-bottom: 4px solid #00bcd4;
+		position: absolute;
+		top: 28px;
+		left: 10px;
+	}
+
+	.wrapper_white-section_skills-title:after {
+		content: "";
+		display: block;
+		width: 390px;
+		border-bottom: 2px solid #242427;
+		margin: 15px auto 35px;
+	}
+
+	.wrapper_white-section_skills-list {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.block-time {
+		width: 220px;
+	}
+
+	.block-time_item-text_span {
+		display: inline-block;
+		width: 160px;
+		margin-left: 35px;
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.block-time_item--before:before {
+		content: "Часа";
+		position: absolute;
+		top: 0;
+		right: 0;
+		transform: rotate(90deg);
+		font-size: 24px;
+		line-height: 24px;
+		color: #242427;
+	}
+
+	.block-time_item--befores:before {
+		content: "Часов";
+		position: absolute;
+		top: 0;
+		right: 0;
+		transform: rotate(90deg);
+		font-size: 24px;
+		line-height: 24px;
+		color: #242427;
+	}
+
+	.blcok-time_item-text {
+		padding: 0px 20px;
+	}
+
+	.program-study {
+		padding-top: 50px;
+		padding-bottom: 20px;
+		background-image: url(../img/light-bg.png);
+		margin-bottom: 30px;
+		box-shadow: 0px 18px 0px 0px rgba(229,229,229,0.16);
+		position: relative;
+	}
+
+	.section_skills-subtitle {
+		width: 300px;
+		margin-left: 80px;
+		font-size: 24px;
+		line-height: 30px;
+		color: #242427;
+		margin-bottom: 45px;
+	}
+
+	.section_skills-subtitle--after:after {
+		content: "";
+		display: block;
+		width: 550px;
+		border-bottom: 2px solid #242427;
+		margin: 15px 0px 0px 25px;
+	}
+
+	.block-html-title-tablet {
+		display: block;
+		font-size: 16px;
+		line-height: 30px;
+		font-weight: 600;
+	}
+
+	.text-h3-extra {
+		font-weight: 900;
+	}
+
+	.program-titles-tablet {
+	/*	outline: 1px solid red;*/
+		width: 400px;
+		margin: 0px 0px 20px 200px;
+		position: relative;
+	}
+
+	.program-titles_title-phone {
+		display: none;
+	}
+
+	/*.program-titles_title {
+		display: none;
+	}*/
+
+	/*.submenu-item_ol {
+		display: none;
+	}*/
+
+/*
+	.program-titles {
+		display: flex;
+		flex-direction: column;
+		list-style: none;
+		width: 450px;
+		margin-left: 200px;
+		background-image: url(../img/light-bg.png);
+		position: relative;
+		z-index: 2;
+		outline: 1px solid silver;	
+	}
+
+	.program-titles_title {
+		display: block;
+		width: 400px;
+		padding-left: 10px;
+		margin-bottom: 30px;
+		position: relative;
+	
+		outline: 1px solid red;
+	}
+
+	.program-titles_title:last-of-type {
+		 margin-bottom: 50px;
+	}
+
+	.program-titles_title-after:after {
+		content: "";
+		display: block;
+		width: 160px;
+		border-bottom: 1px solid #242427;
+		position: absolute;
+		top: 9px;
+		left: -80px;
+		z-index: 1;
+	}
+
+	.program-titles_title-before:before {
+		content: "";
+		display: block;
+		width: 10px;
+		height: 10px;
+		border: 2px solid #242427;
+		border-radius: 20px;
+		position: absolute;
+		top: 2px;
+		left: -84px;
+	}
+
+	.program-titles_title:hover .program-titles_title-before:before {
+
+	}
+
+	.section_skills-submenu h3 {
+		font-size: 16px;
+		line-height: 30px;
+		color: #242427;
+	}
+
+	.section_skills-submenu {
+		position: relative;
+	}
+	
+	.block-html-title, .javascript_title, .block-react_title, .block-back-end_title, .block-soft_title {
+		display: none;
+	}
+
+	.section_skills-submenu {
+		position: relative;
+	}
+	.section_skills-submenu-item {
+		position: absolute;
+		z-index: 2;
+	}
+
+	.section_skills-submenu-item:nth-of-type(n + 2) {
+		display: none;
+	}
+
+	.section_skills-submenu-item:first-of-type {
+		width: 100%;
+		background-color: #fff;
+	}
+
+	.program-titles_title-hover:hover .section_skills-submenu-item:nth-of-type(2) {
+		display: block;
+	}
+
+	.submenu-item_ol {
+		width: 100%;
+		padding: 40px 0px 50px 80px;
+	} 
+*/
+	.skills {
+		display: block;
+		position: relative;
+	}
+
+	.block-bg-blue {
+		position: absolute;
+		top: 30px;
+		left: 50px;
+		width: 668px;
+		height: 429px;
+		background-image: url(../img/blue-bg.png);
+		background-repeat: repeat;
+		z-index: 1;
+	}
+
+	.skills_title {
+		display: block;
+		text-align: center;
+		text-transform: uppercase;
+		padding-top: 30px;
+		padding-bottom: 35px;
+		background-color: #fbfbfb;
+		color: #474748;
+		font-size: 18px;
+		line-height: 26px;
+		position: relative;
+		border-bottom: 2px solid #e5e5e5;
+		z-index: 2;
+	}
+	
+	.skills-submenu {
+		width: 100%;
+		height: 345px;
+		background-color: #fff;
+		position: relative;
+		z-index: 2;
+	}
+
+	.program-titles_title {
+		background-color: transparent;
+		list-style: none;
+		padding-top: 0px;
+		border: none;
+		margin-bottom: 15px;
+	}
+
+	.block-html-title-tablet:after {
+		content: "";
+		display: block;
+		width: 80px;
+		border-bottom: 1px solid black;
+		position: absolute;
+		top: 15px;
+		left: -105px;
+	}
+
+	.block-html-title-tablet:before {
+		content: "";
+		display: block;
+		width: 20px;
+		height: 20px;
+		border: 2px solid #242427;
+		border-radius: 20px;
+		position: absolute;
+		top: 3px;
+		left: -127px;
+	}
+
+	.submenu-item-text {
+		width: 400px;
+	}
+
+	.section_skills-submenu-item {
+		position: absolute;
+		z-index: 2;
+	}
+
+	.program-titles_title-none {
+		display: none;
+	}
+	
+	.program-titles_title {
+		position: absolute;
+		top: 570px;
+		left: 100px;
+		z-index: 3;
+	
+	}
+
+}
+
+@media screen and (min-width: 1151px) {
+	.wrapper_white {
+		width: 1150px;
+		/*outline: 1px solid red;*/
+	}
+
+	.wrapper_white-section_skills-title {
+		width: 550px;
+		font-size: 42px;
+		line-height: 50px;
+		font-weight: 900;
+	/*	outline: 1px solid red;*/
+	}
+	
+	.wrapper_white-section_skills-title:before {
+		content: "";
+		display: block;
+		width: 25px;
+		border-bottom: 4px solid #00bcd4;
+		position: absolute;
+		top: 38px;
+		left: -5px;
+	}
+	
+	.wrapper_white-section_skills-title:after {
+		content: "";
+		display: block;
+		width: 430px;
+		border-bottom: 2px solid #242427;
+		margin: 0px auto 80px;
+	}
+
+	.wrapper_white-section_skills-list {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.block-time {
+		width: 300px;
+	}
+
+	.block-time .block-time_item:first-of-type {
+		text-align: center;
+		font-size: 165px;
+		font-weight: 900;
+		color: #00bcd4;
+		position: relative;
+	}
+
+	.block-time_item-text_span {
+		display: inline-block;
+		width: 230px;
+		margin-left: 35px;
+		font-size: 24px;
+		line-height: 26px;
+	}
+
+	.block-time_item--before:before {
+		content: "Часа";
+		position: absolute;
+		top: 0;
+		right: 0;
+		transform: rotate(90deg);
+		font-size: 24px;
+		line-height: 24px;
+		color: #242427;
+		font-weight: 900;
+	}
+
+	.block-time_item--befores:before {
+		content: "Часов";
+		position: absolute;
+		top: 0;
+		right: 0;
+		transform: rotate(90deg);
+		font-size: 24px;
+		line-height: 24px;
+		color: #242427;
+		font-weight: 900;
+	}
+
+	.block-time_item--after:after {
+		content: "";
+		display: block;
+		width: 250px;
+		border-bottom: 2px solid #242427;
+		margin: 0px auto 20px;
+	}
+
+	.wrapper_white-section_skills-list {
+		margin-bottom: 100px;
+	}
+
+	.section_skills-subtitle {
+		text-align: center;
+		font-size: 30px;
+		line-height: 30px;
+		position: absolute;
+		top: -60px;
+		left: 70px;
+		margin-bottom: 0px;
+	}
+
+	.section_skills-subtitle--after:after {
+		content: "";
+		display: block;
+		width: 590px;
+		border-bottom: 2px solid #242427;
+		margin: 15px auto 0px;
+	}
+
+
+	.program-study {
+		width: 1300px;
+		height: 510px;
+		margin-left: -150px;
+		padding-top: 70px;
+		margin-bottom: 30px;
+		box-shadow: 0px 12px 34px -1px rgba(229,229,229,0.16);
+/*		outline: 1px solid red;*/
+		position: relative;
+	}
+
+	.program-titles-tablet {
+		/*outline: 1px solid red;*/
+		width: 330px;
+		margin: 0px 0px 50px 150px;
+	}
+
+	.program-study-desctop {
+		position: relative;
+	}
+
+	.skills {
+		position: absolute;
+		top: -110px;
+		right: 90px;
+		width: 470px;
+		z-index: 4;
+	}
+
+	.skills_title {
+		display: block;
+		height: 110px;
+		text-align: center;
+		text-transform: uppercase;
+		padding-top: 30px;
+		padding-bottom: 35px;
+		background-color: #fbfbfb;
+		color: #474748;
+		font-size: 18px;
+		line-height: 26px;
+		position: relative;
+		border-bottom: 2px solid #e5e5e5;
+		z-index: 2;
+	}
+
+	.skills-submenu {
+		width: 100%;
+		height: 580px;
+		background-color: #fff;
+		position: relative;
+		z-index: 2;
+		/*outline: 1px solid red;*/
+	}
+
+	.block-html-title-tablet {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.program-titles_title {
+		width: 600px;
+		padding-top: 65px;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		z-index: 5;
+	/*	outline: 1px solid red;*/
+	}
+
+	.submenu-item-text {
+		font-size: 18px;
+		line-height: 24px;
+		width: 275px;
+		margin-bottom: 30px;
+		padding-left: 10px;
+	/*	outline: 1px solid red;*/
+	}
+
+	/*.submenu-item-ol {
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 5;
+
+	}*/
+
+	body {
+		padding-bottom: 100px;
+	}
+
+	.block-bg-blue {
+		position: absolute;
+		top: 95px;
+		left: 30px;
+		width: 465px;
+		height: 610px;
+		background-image: url(../img/blue-bg.png);
+		background-repeat: repeat;
+		z-index: 1;
+	}
+
+	.block-html-title-tablet:after {
+		content: "";
+		display: block;
+		width: 90px;
+		border-bottom: 1px solid black;
+		position: absolute;
+		top: 15px;
+		left: -115px;
+	}
+
+	.program-titles-tablet:nth-of-type(2) .block-html-title-tablet::after {
+		content: "";
+		display: block;
+		width: 90px;
+		border-bottom: 1px solid black;
+		position: absolute;
+		top: 30px;
+		left: -115px;
+	}
+
+	.block-html-title-tablet:before {
+		content: "";
+		display: block;
+		width: 20px;
+		height: 20px;
+		border: 3px solid #242427;
+		border-radius: 20px;
+		position: absolute;
+		top: 2px;
+		left: -138px;
+	}
+
+	.program-titles-tablet:nth-of-type(2) .block-html-title-tablet:before {
+		content: "";
+		display: block;
+		width: 20px;
+		height: 20px;
+		border: 3px solid #242427;
+		border-radius: 20px;
+		position: absolute;
+		top: 17px;
+		left: -138px;
+	}
+}

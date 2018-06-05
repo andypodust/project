@@ -1,0 +1,615 @@
+@import url(normalize.css);
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.wrap-darken {
+	background-color: #28282d;
+}
+
+.wrapper-darken_section {
+	width: 290px;
+	margin: 0 auto;
+	padding-top: 45px;
+	padding-bottom: 60px;
+}
+
+.wrapper-darken_section-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 80px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.wrapper-darken_section-title_h2 {
+	text-align: center;
+	width: 90%;
+	padding-left: 10px;
+	position: relative;
+	margin-bottom: 10px;
+	font-size: 25px;
+	line-height: 30px;
+}
+
+.wrapper-darken_section-title_h2-span-none {
+	display: none;
+}
+
+.wrapper-darken_section-title_h2-before:before {
+	content: "";
+	display: block;
+	width: 15px;
+	border-bottom: 2px solid #00bcd4;
+	position: absolute;
+	top: 23px;
+	left: 7px;
+}
+
+.wrapper-darken_section-title_p {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 900;
+}
+
+.wrapper-darken_section-title_p-before:before {
+	content: " ";
+	display: block;
+	margin: 0 auto;	
+	width: 150px;
+	border-bottom: 2px solid #00bcd4;
+	margin-bottom: 30px;
+}
+
+.text-color-blue {
+	color: #00bcd4;
+}
+
+.wrapper-darken-career {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	list-style: none;
+}
+
+.wrapper-darken-career_item:first-of-type{
+	display: inline-block;
+	width: 90%;
+	font-size: 20px;
+	line-height: 24px;
+	color: #fff;
+}
+
+.wrapper-darken-career_item {
+	margin-bottom: 40px;
+	position: relative;
+	font-size: 14px;
+	line-height: 24px;
+	color: #d6d5d5;
+}
+
+.text-color-white {
+	color: #fff;
+	font-weight: 900;
+}
+
+.wrapper-darken-career_item:nth-of-type(n + 2){
+	padding-left: 40px;
+}
+
+.wrapper-darken-career_item:nth-of-type(2){
+	width: 190px;
+}
+
+.wrapper-darken-career_item:nth-of-type(3){
+	width: 250px;
+}
+
+.wrapper-darken-career_item-before:before {
+	content: "";
+	display: block;
+	width: 21px;
+	height: 21px;
+	background-color: #00bcd4;
+	border: 3px solid #fff;
+	border-radius: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.wrapper-darken-skills {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 30px 0px 0px 0px;
+	background-color: #313133;
+	counter-reset: list 0;
+}
+
+.wrapper-darken-skills-description {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	font-size: 16px;
+}
+
+.wrapper-darken-skills__p {
+	color: #fff;
+	width: 86%;
+	padding-left: 15px;
+	margin-bottom: 40px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #d6d5d5;
+}
+
+.wrapper-darken-skills-description__item {
+	margin-bottom: 30px;
+	padding-left: 30px;
+	position: relative;
+	list-style: none;
+	z-index: 1;
+}
+
+.wrapper-darken-skills-description__h3 {
+	margin-bottom: 10px;
+	font-size: 16px;
+	line-height: 19px;
+	color: #fff;
+	padding-top: 5px;
+}
+
+.wrapper-darken-skills-description__item-before:before{
+	counter-increment: list; 
+	content: "." counter(list);
+	display: block;
+	font-size: 24px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #00bcd4;
+	padding-left: 5px;
+	position: absolute;
+	top: 0px;
+	left: 0;
+}
+
+.wrapper-darken-skills-description__item-after:after{
+	content: "";
+	display: block;
+	width: 100px;
+	border-bottom: 1px solid #00bcd4;
+	position: relative;
+	z-index: 2;
+	bottom: 80px;
+	right: 15px;
+}
+
+
+.wrapper-darken-skills-description__span {
+	display: inline-block;
+	width: 200px;
+	font-size: 14px;
+	line-height: 17px;
+	color: #d6d5d5;
+}
+
+
+@media screen and (min-width: 768px) {
+	.wrap-darken {
+		background-color: #28282d;
+		background-image: url(../img/wrapper-darken-bg.png);
+		background-repeat: repeat;
+	}
+
+	.wrapper-darken_section {
+		width: 690px;
+		margin: 0 auto;
+		padding-top: 80px;
+		padding-bottom: 60px;
+	}
+
+	.wrapper-darken_section-title {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		width: 540px;
+		margin-left: 55px;
+		margin-bottom: 80px;
+		color: #fff;
+		text-transform: uppercase;
+	}
+
+	.wrapper-darken_section-title_h2 {
+		text-align: left;
+		width: 100%;
+		padding-left: 10px;;
+		margin-bottom: 20px;
+		font-size: 30px;
+		line-height: 40px;
+		font-weight: 900;
+	}
+
+	.wrapper-darken_section-title_h2-span-none {
+		display: inline-block;
+	}
+
+	.wrapper-darken_section-title_h2:first-letter {
+		padding-left: 15px;
+	}
+
+	.wrapper-darken_section-title_h2-before:before {
+		content: "";
+		display: block;
+		width: 15px;
+		border-bottom: 5px solid #00bcd4;
+		position: absolute;
+		top: 30px;
+		left: 7px;
+	}
+
+	.wrapper-darken_section-title_p {
+		text-align: left;
+		width: 420px;
+		font-weight: 900;
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	.wrapper-darken_section-title_p-before:before {
+		content: " ";
+		display: block;
+		margin-right: 100%;	
+		width: 505px;
+		border-bottom: 2px solid #00bcd4;
+		margin-bottom: 45px;
+	}
+
+	.wrapper-darken-career {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		list-style: none;
+		position: relative;
+	}
+
+	.wrapper-darken-career-after:after {
+		content: url(../img/wrapper-darken-career-after.png);
+		position: absolute;
+		top: 35px;
+		left: -26px;
+	}
+
+	.wrapper-darken-career-before:before {
+		content: "";
+		display: block;
+		width: 600px;
+		border-bottom: 1px solid #fff;
+		position: absolute;
+		top: 68px;
+		left: 0;
+	}
+
+	.wrapper-darken-career_item:first-of-type {
+		display: inline-block;
+		width: 585px;
+		margin: 0px auto 25px;
+		font-size: 24px;
+		line-height: 30px;
+		color: #2c2c31;
+		font-weight: bold;
+		background-color: #fff;
+	}
+
+	.wrapper-darken-career_item:nth-of-type(2) {
+		width: 180px;
+		margin-left: 65px;
+		margin-right: 55px;
+	}
+
+	.wrapper-darken-career_item:last-of-type {
+		width: 340px;
+	}
+
+	.wrapper-darken-career_item {
+		margin-bottom: 40px;
+		position: static;
+		font-size: 14px;
+		line-height: 24px;
+		color: #d6d5d5;
+	}
+
+	.wrapper-darken-career_item-before:before {
+		content: "";
+		display: block;
+		width: 21px;
+		height: 21px;
+		background-color: #00bcd4;
+		border: 3px solid #fff;
+		border-radius: 20px;
+		position: relative;
+		z-index: 2;
+		top: 0;
+		left: 0;
+	}
+
+	.wrapper-darken-skills {
+		width: 575px;
+		margin: 0 auto;
+		padding: 150px 0px 30px 0px;
+		background-image: url(../img/goit.png);
+		background-position: right 15px;
+		background-color: #313133;
+		background-repeat: no-repeat;
+		position: relative;
+	}
+
+	.wrapper-darken-skills:before {
+		content: "dream";
+		display: inline-block;
+		font-size: 30px;
+		line-height: 36px;
+		color: #fff;
+		position: absolute;
+		top: 40px;
+		left: -80px;
+		transform: rotate(90deg);
+		letter-spacing: 6px;
+	}
+
+	.wrapper-darken-skills:after {
+		content: "guarantee";
+		display: inline-block;
+		font-size: 20px;
+		line-height: 24px;
+		color: #fff;
+		position: absolute;
+		top: 170px;
+		right: -95px;
+		transform: rotate(90deg);
+		letter-spacing: 6px;
+	}
+
+	.wrapper-darken-skills__p {
+		width: 400px;
+		padding-left: 0px;
+		margin: 0 auto;
+		margin-bottom: 30px;
+		font-size: 14px;
+		line-height: 24px;
+		color: #d6d5d5;
+	}
+
+	.wrapper-darken-skills-description__item {
+		margin-bottom: 10px;
+		margin-left: 90px;
+		padding-top: 25px;
+		padding-left: 30px;
+		height: 100px;
+		width: 500px;
+		position: relative;
+		background-color: #2f2f31;
+		list-style: none;
+		z-index: 1;
+	}
+
+	.wrapper-darken-skills-description__h3 {
+		text-transform: uppercase;
+		font-size: 18px;
+		line-height: 22px;
+		padding-top: 5px;
+	}
+	
+
+
+	.wrapper-darken-skills-description__span {
+		width: 100%;
+	}
+
+	.wrapper-darken-skills-description__item-before:before{
+		counter-increment: list; 
+		content: "." counter(list);
+		display: block;
+		font-size: 24px;
+		line-height: 26px;
+		font-weight: bold;
+		color: #00bcd4;
+		padding-left: 5px;
+		position: absolute;
+		top: 30px;
+		left: -45px;
+	}
+
+	.wrapper-darken-skills-description__item-after:after {
+		content: "";
+		display: block;
+		width: 100px;
+		border-bottom: 1px solid #00bcd4;
+		position: relative;
+		z-index: 2;
+		bottom: 65px;
+		right: 70px;
+	}
+}
+
+@media screen and (min-width: 1151px) {
+	body {
+		padding-top: 50px;
+	}
+
+	.wrapper-darken_section {
+		width: 1151px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		position: relative;
+		z-index: 1;
+	}
+
+	.wrapper-darken_section:after {
+		content: url(../img/wrapper-darken-desctop.png);
+		display: inline-block;
+		position: absolute;
+		bottom: 80px;
+		right: -370px;
+	}
+
+	.wrapper-darken_section-title {
+		width: 573px;
+		margin-left: 0px;
+		margin-bottom: 0px;
+		padding-top: 160px;
+	}
+
+	.wrapper-darken_section-title_h2 {
+		width: 365px;
+		padding-left: 0px;
+		margin-bottom: 20px;
+		font-size: 42px;
+		line-height: 50px;
+		font-weight: 900;
+	}
+
+	.wrapper-darken_section-title_h2:first-letter {
+		padding-left: 32px;
+	}
+
+	.wrapper-darken_section-title_h2-before:before {
+		content: "";
+		display: block;
+		width: 30px;
+		border-bottom: 5px solid #00bcd4;
+		position: absolute;
+		top: 40px;
+		left: 0px;
+	}
+
+	.wrapper-darken_section-title_p {
+		width: 535px;
+		font-weight: 900;
+		font-size: 18px;
+		line-height: 30px;
+		margin-bottom: 60px;
+	}
+
+	.wrapper-darken_section-title_p-before:before {
+		content: " ";
+		display: block;
+		margin-right: 100%;	
+		width: 574px;
+		border-bottom: 2px solid #00bcd4;
+		margin-bottom: 30px;
+	}
+
+	.wrapper-darken-career {
+		width: 574px;
+	}
+
+	.wrapper-darken-career_item:first-of-type{
+		width: 570px;
+	}
+
+	.wrapper-darken-career-after:after {
+		content: url(../img/wrapper-darken-career-after.png);
+		position: absolute;
+		top: 35px;
+		left: -251px;
+	}
+
+	.wrapper-darken-career-before:before {
+		content: "";
+		display: block;
+		width: 800px;
+		border-bottom: 1px solid #fff;
+		position: absolute;
+		top: 68px;
+		left: -225px;
+	}
+
+	.wrapper-darken-career_item:nth-of-type(2) {
+		width: 150px;
+		margin-left: 0px;
+		margin-right: 40px;
+	}
+
+	.wrapper-darken-career_item:last-of-type {
+		width: 280px;
+	}
+
+	.wrapper-darken-career_item {
+		font-size: 16px;
+		line-height: 26px;
+	}
+
+	.wrapper-darken-career_item-before:before {
+		content: "";
+		display: block;
+		width: 21px;
+		height: 21px;
+		background-color: #00bcd4;
+		border: 3px solid #fff;
+		border-radius: 20px;
+		position: relative;
+		z-index: 2;
+		top: 0;
+		left: 0;
+		margin-bottom: 20px;
+	}
+
+	.wrapper-darken-career_item:nth-of-type(n + 2){
+		padding-left: 0px;
+	}
+
+	.wrapper-darken-skills {
+		width: 575px;
+		padding: 190px 0px 50px 0px;
+		position: absolute;
+		top: -50px;
+		right: 0;
+	}
+
+	.wrapper-darken-skills:before {
+		content: "dream";
+		display: inline-block;
+		font-size: 40px;
+		line-height: 50px;
+		color: #fff;
+		position: absolute;
+		top: 115px;
+		left: -90px;
+		transform: rotate(90deg);
+		letter-spacing: 6px;
+	}
+
+	.wrapper-darken-skills:after {
+		content: "guarantee";
+		display: inline-block;
+		font-size: 26px;
+		line-height: 31px;
+		color: #fff;
+		position: absolute;
+		top: 250px;
+		right: -105px;
+		transform: rotate(90deg);
+		letter-spacing: 6px;
+	}
+
+	.wrapper-darken-skills__p {
+		width: 400px;
+		margin-bottom: 30px;
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.wrapper-darken-skills-description__span {
+		font-size: 16px;
+		line-height: 19px;
+	}
+}

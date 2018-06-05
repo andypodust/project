@@ -142,7 +142,7 @@
     .wrapper_fluid {
         min-width: 768px;
         height: 660px;
-        background: url('img/bg-header-tablet.png');
+        background: url('../img/bg-header-tablet.png');
     }
     .header-logo-text-grand {
         display: block;
@@ -307,7 +307,7 @@
             display: block;
             width: 300px;
             height: 500px;
-            background-image: url(img/hud.png);
+            background-image: url(../img/hud.png);
             background-repeat: no-repeat;
             background-size: 70%;
         }
@@ -335,7 +335,7 @@
             display: block;
             width: 300px;
             height: 500px;
-            background-image: url(img/hud.png);
+            background-image: url(../img/hud.png);
             background-repeat: no-repeat;
             background-size: 70%;
         }
@@ -347,7 +347,7 @@
         .header-section-list-title {
             display: block;
             position: absolute;
-            top: -66px;
+            top: -50px;
             left: 28px;
             width: 195px;
             padding: 4px 0px;

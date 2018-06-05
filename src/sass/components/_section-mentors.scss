@@ -207,7 +207,7 @@
         width: 822px;
         height: 1022px;
         position: absolute;
-        background-image: url(img/light-bg.png);
+        background-image: url(../img/light-bg.png);
         bottom: -223px;
         right: 40px;
     }
@@ -216,7 +216,7 @@
         position: absolute;
         width: 400px;
         height: 400px;
-        background: url('img/bg-blue.png');
+        background: url('../img/bg-blue.png');
         z-index: 0;
         top: -30px;
         right: -14px;
@@ -226,7 +226,7 @@
         position: absolute;
         width: 501px;
         height: 400px;
-        background: url(img/bg-blue.png);
+        background: url(../img/bg-blue.png);
         bottom: -189px;
         left: 107px;
         z-index: -1;
@@ -295,9 +295,7 @@
         position: absolute;
         bottom: -223px;
         right: 10px;
-        background: url('img/bg-texture-right.png') no-repeat 50% 50%;
-        background-size: auto auto;
-        background-size: auto auto;
+        background: url('../img/bg-texture-right.png') no-repeat 50% 50%;
         background-size: auto auto;
         background-size: 100%;
         z-index: 1;

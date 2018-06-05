@@ -22,13 +22,8 @@
     text-transform: uppercase;
 }
 .wrapper_snowy-section-title::before {
-    content: '';
-    border-bottom: 4px solid #00bcd4;
-    width: 16px;
+    content: '_';
     color: #00bcd4;
-    position: absolute;
-    top: 82px;
-    left: 30px;
 }
 .wrapper_snowy-section-subtitle {
     font-family: $extra-font;
@@ -60,7 +55,7 @@
     width: 80px;
     color: #00bcd4;
     position: absolute;
-    top: 440px;
+    top: 430px;
     left: 0%;
 }
 .wrapper_snowy-section-text_primary {
@@ -83,7 +78,7 @@
     width: 80px;
     color: #00bcd4;
     position: absolute;
-    top: 693px;
+    top: 683px;
     left: 0%;
 }
 .wrapper_snowy-section-text_secondary {

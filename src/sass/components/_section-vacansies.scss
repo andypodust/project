@@ -8,7 +8,7 @@
 } 
 
 .section_second-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $primary-font;
     font-size: 25px;
     font-weight: 700;
     text-transform: uppercase;
@@ -23,14 +23,14 @@
 }
 .section_second-text_primary {
     color: #242427;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $primary-font;
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
 }
 .section_second-text_secondary {
     color: #242427;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $primary-font;
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
@@ -62,7 +62,7 @@
 }
 .menu-item-title {
     margin: 10px 0 0 25px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $primary-font;
     font-size: 16px;
     color: #242427;
     text-transform: uppercase;
@@ -78,14 +78,14 @@
 }
 .menu-item-text {
     text-align: left;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: $extra-font;
     color: #000;
     font-size: 16px;
     padding-left: 15px;
 }
 .menu-item-text_wage {
     text-align: left;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: $extra-font;
     color: #000;
     font-size: 16px;
     padding-left: 15px;
@@ -98,7 +98,7 @@
 }
 .menu-item-text_position {
     text-align: left;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: $extra-font;
     color: #636363;
     font-size: 16px;
     padding-left: 15px;
@@ -128,13 +128,13 @@
     font-weight: 700;
     line-height: 25px;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $primary-font;
 }
 .link_begin {
     margin: 0 auto;
     display: block;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $primary-font;
     font-size: 12px;
     font-weight: 800;
     text-transform: uppercase;
@@ -153,7 +153,7 @@
 }
     .section_second-article-text {
     padding: 45px 0 15px 15px;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: $extra-font;
     text-align: left;
     font-size: 12px;
     color: #242427;
@@ -231,7 +231,7 @@
         z-index: 1;
         width: 135px;
         border: none;
-        font-family: 'Montserrat', sans-serif;
+        font-family: $primary-font;
         text-align: center;
         color: #fff;
         font-size: 14px;

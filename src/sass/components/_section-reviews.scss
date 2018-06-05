@@ -228,7 +228,20 @@
         padding-right: 0
         
     }
-    
+    .wrapper_light-section-list {
+        width: 420px;
+        padding-left: 30px
+    }
+    .wrapper_light-section-list-item-text {
+        font-size: 18px
+    }
+    .wrapper_light-section-text_last {
+        font-size: 18px;
+        width: 350px;
+    }
+    .wrapper_light-section-text_last:after {
+        left: -70px;
+    }
     .wrapper_light-section-article-list-item_video {
         width: 350px;
     }

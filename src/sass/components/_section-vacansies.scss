@@ -326,31 +326,28 @@
         bottom: -223px;
         right: 40px;
     }
-    .bg-blue-top {
+    .bg-blue {
         display: block;
         position: absolute;
+        background: url(../img/blue-bg.png);
+    }
+    .bg-top {
+
         width: 400px;
         height: 400px;
-        background: url(../img/blue-bg.png);
+
         z-index: 0;
         top: -30px;
         right: -14px;
     }
-    .bg-blue-bottom {
-        display: block;
-        position: absolute;
+    .bg-bottom {
+
         width: 501px;
         height: 400px;
         background: url(../img/blue-bg.png);
         bottom: -189px;
         left: 107px;
         z-index: -1;
-    }
-    .wrapper_prof-section {
-        width: 696px;
-        height: 800px;
-        position: absolute;
-        left: 570px;
     }
     /* teachers block 1151px end*/
    }

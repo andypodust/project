@@ -4,11 +4,11 @@
     margin: 0 auto;
     padding: 60px 0 30px 0;
     text-align: center;
-    background-image: url('../img/light-bg.png');
+    background-image: url(../img/light-bg.png);
 } 
 
 .section_second-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $primary-font;
     font-size: 25px;
     font-weight: 700;
     text-transform: uppercase;
@@ -23,14 +23,14 @@
 }
 .section_second-text_primary {
     color: #242427;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $primary-font;
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
 }
 .section_second-text_secondary {
     color: #242427;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $primary-font;
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
@@ -62,7 +62,7 @@
 }
 .menu-item-title {
     margin: 10px 0 0 25px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $primary-font;
     font-size: 16px;
     color: #242427;
     text-transform: uppercase;
@@ -78,14 +78,15 @@
 }
 .menu-item-text {
     text-align: left;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: $extra-font;
     color: #000;
     font-size: 16px;
     padding-left: 15px;
+    margin-top: 15px;
 }
 .menu-item-text_wage {
     text-align: left;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: $extra-font;
     color: #000;
     font-size: 16px;
     padding-left: 15px;
@@ -98,7 +99,7 @@
 }
 .menu-item-text_position {
     text-align: left;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: $extra-font;
     color: #636363;
     font-size: 16px;
     padding-left: 15px;
@@ -128,13 +129,13 @@
     font-weight: 700;
     line-height: 25px;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $primary-font;
 }
 .link_begin {
     margin: 0 auto;
     display: block;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $primary-font;
     font-size: 12px;
     font-weight: 800;
     text-transform: uppercase;
@@ -153,7 +154,7 @@
 }
     .section_second-article-text {
     padding: 45px 0 15px 15px;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: $extra-font;
     text-align: left;
     font-size: 12px;
     color: #242427;
@@ -165,20 +166,19 @@
         position: relative;
         min-width: 768px;
         margin: 0 auto;
-        background-image: url('../img/light-bg.png');
+        background-image: url(../img/light-bg.png);
     }
     .wrap-section_second-menu {
         margin-right: 48px;
     }
     .section_second {
         width: 692px;
-        background-image: url('../img/light-bg.png');
+        background-image: url(../img/light-bg.png);
         box-shadow: 0px 10px 21px -6px rgba(0,0,0,0.75);
     }
     .wrap_header-section_start-desktop {
         display: none;
     }
-
     .section_second-menu {
         display: flex;
         flex-flow: row wrap;
@@ -186,15 +186,15 @@
     .menu-item-text {
         margin-right: 20px;
     }
-    .link_begin {
-        width: 230px;
+    .section_second-article > .link_begin {
+        width: 220px;
     }
     .section_second {
         position: relative;
     }
     .section_second-article {
         position: absolute;
-        top: 887px;
+        top: 795px;
         left: 48px;
     }
     .section_second-article > .link_begin:hover {
@@ -223,32 +223,8 @@
     .wrap_header-section_start-desktop {
         display: block;
     }
-    .header-section_start-desktop {
-        position: absolute;
-        top: 61px;
-        left: -40px;
-        transform: rotate(90deg);
-        z-index: 1;
-        width: 135px;
-        border: none;
-        font-family: 'Montserrat', sans-serif;
-        text-align: center;
-        color: #fff;
-        font-size: 14px;
-        text-transform: uppercase;
-        font-weight: 700;
-    }
     /* vacancies section */
-    .header-section_start-desktop::before {
-        content: "";
-        display: table;
-        width: 108%;
-        border-top: 1px solid #00bcd4;
-        padding-top: 4px;
-        position: absolute;
-        top: -8px;
-        left: -15px;
-    }
+    
     .section_second-title {
         width: 300px;
         margin-left: 250px;
@@ -316,7 +292,7 @@
     .section_second-article > .link_begin {
         position: absolute;
         top: 173px;
-        width: 300px;
+        width: 200px;
         left: 110px;
     }
     .section_second-article-text {
@@ -355,7 +331,7 @@
         position: absolute;
         width: 400px;
         height: 400px;
-        background: url('../img/bg-blue.png');
+        background: url(../img/blue-bg.png);
         z-index: 0;
         top: -30px;
         right: -14px;
@@ -365,7 +341,7 @@
         position: absolute;
         width: 501px;
         height: 400px;
-        background: url(../img/bg-blue.png);
+        background: url(../img/blue-bg.png);
         bottom: -189px;
         left: 107px;
         z-index: -1;

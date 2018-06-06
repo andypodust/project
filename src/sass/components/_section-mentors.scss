@@ -9,7 +9,7 @@
     padding: 30px 0;
 }
 .wrapper_prof-section-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $primary-font;
     color: #000;
     text-align: center;
     font-size: 25px;
@@ -31,7 +31,7 @@
 .wrapper_prof-section-text_primary {
     width: 80%;
     margin: 0 auto;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $primary-font;
     color: #000;
     text-align: center;
     font-size: 12px;
@@ -42,7 +42,7 @@
     width: 90%;
     margin-left: 15px;
     padding: 20px 0 5px 0;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: $extra-font;
     color: #000;
     text-align: justify;
     font-size: 14px;
@@ -60,7 +60,7 @@
 }
 .wrapper_prof-section-list-item-title {
     margin-bottom: 15px;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: $extra-font;
     color: #000;
     font-size: 24px;
     text-align: right;
@@ -89,7 +89,7 @@
     width: 110px;
     margin: 0;
     padding: 10px 0 0 150px;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: $extra-font;
     font-size: 20px;
     color: #000;
 }
@@ -115,7 +115,7 @@
 }
 .main-list-item {
     padding-bottom: 15px;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: $extra-font;
     color: #242427;
     font-size: 14px;
     font-weight: 700;
@@ -123,7 +123,7 @@
 .wrapper_prof-footer {
     padding: 15px 0;
     background-color: #f0f0f0;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: $extra-font;
     text-align: center;
     text-transform: uppercase;
 }

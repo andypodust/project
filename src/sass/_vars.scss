@@ -1,8 +1,8 @@
 
 // 1rem = 10px
-:root {
-    font-size: 62.5%;
-}
+// :root {
+//     font-size: 62.5%;
+// }
 
 $remWidth: 1rem;
 @function rem($n) {
@@ -23,6 +23,7 @@ $remWidth: 1rem;
 $primary-font: 'Montserrat', sans-serif;
 $secondary-font: 'Open Sans', sans-serif;
 $extra-font: 'Ubuntu Mono', monospace;
+$extra-font-second: 'Roboto', sans-serif;
 
 
 

@@ -156,6 +156,7 @@
         font-weight: 700;
         text-transform: uppercase;
         line-height: 17px;
+        margin-top: 11px;
     }
     .wrap_header-section_start {
         position: absolute;
@@ -244,6 +245,7 @@
             font-size: 14px;
             color: #fff;
             padding-left: 125px;
+            margin-top: 15px;
         }
         .header-text {
             display: block;
@@ -338,6 +340,31 @@
             background-image: url(img/hud.png);
             background-repeat: no-repeat;
             background-size: 70%;
+        }
+        .header-section_start-desktop {
+            position: absolute;
+            top: 75px;
+            left: -40px;
+            transform: rotate(90deg);
+            z-index: 1;
+            width: 135px;
+            border: none;
+            font-family: $primary-font;
+            text-align: center;
+            color: #fff;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        .header-section_start-desktop::before {
+            content: "";
+            display: table;
+            width: 108%;
+            border-top: 1px solid #00bcd4;
+            padding-top: 4px;
+            position: absolute;
+            top: -8px;
+            left: -15px;
         }
         .header-section-list {
             position: absolute;

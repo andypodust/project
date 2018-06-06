@@ -223,32 +223,8 @@
     .wrap_header-section_start-desktop {
         display: block;
     }
-    .header-section_start-desktop {
-        position: absolute;
-        top: 61px;
-        left: -40px;
-        transform: rotate(90deg);
-        z-index: 1;
-        width: 135px;
-        border: none;
-        font-family: $primary-font;
-        text-align: center;
-        color: #fff;
-        font-size: 14px;
-        text-transform: uppercase;
-        font-weight: 700;
-    }
     /* vacancies section */
-    .header-section_start-desktop::before {
-        content: "";
-        display: table;
-        width: 108%;
-        border-top: 1px solid #00bcd4;
-        padding-top: 4px;
-        position: absolute;
-        top: -8px;
-        left: -15px;
-    }
+    
     .section_second-title {
         width: 300px;
         margin-left: 250px;

@@ -96,11 +96,12 @@
     display: none;
 }
 .header-section-list_contacts-tel {
+    margin-bottom: 10px;
+    margin-left: 50px;
     color: #00bcd4;
     font-family: $extra-font;
     font-size: 14px;
     font-weight: 700;
-    margin-bottom: 10px;
 }
 .header-section-list_contacts-tel::after {
     content: "";
@@ -109,6 +110,7 @@
     border: 1px solid #00bcd4;
 }
 .header-section-list_contacts-age {
+    margin-left: 50px;
     color: #fff;
     font-family: $primary-font;
     font-size: 13px;
@@ -147,16 +149,16 @@
     .header-logo-text-grand {
         display: block;
         position: absolute;
-        width: 130px;
         top: 19px;
         left: 140px;
+        width: 130px;
+        margin-top: 11px;
         color: #fff;
         font-family: $primary-font;
         font-size: 11px;
         font-weight: 700;
         text-transform: uppercase;
         line-height: 17px;
-        margin-top: 11px;
     }
     .wrap_header-section_start {
         position: absolute;
@@ -199,10 +201,10 @@
     .flex-wrap_header-section-title {
         margin-top: 14px;
         padding: 0;
-        width: 113px;
+        width: 167px;
         font-family: $primary-font;
         font-size: 16px;
-        text-align: center;
+        // text-align: center;
         text-transform: uppercase;
         line-height: 22px;
         border-right: 1px solid #fff;
@@ -250,7 +252,7 @@
         .header-text {
             display: block;
             position: absolute;
-            top: 500px;
+            top: 510px;
             left: -160px;
             transform: rotate(90deg);
             color: #fff;
@@ -280,6 +282,7 @@
             width: 275px;
             text-align: right;
             font-size: 33px;
+            width: 500px;
         }
         .header-article-title::after {
             display: none;
@@ -293,7 +296,7 @@
         .header-article-list {
             width: 545px;
             text-align: justify;
-            margin-left: 200px;
+            margin-left: 155px;
         }
         .header-section {
             width: 358px;
@@ -384,7 +387,7 @@
             color: #000;
             text-transform: uppercase;
             font-size: 14px;
-            font-weight: 900;
+            font-weight: 700;
             font-family: $primary-font;
             text-align: center;
         }
@@ -397,7 +400,7 @@
         .header-section-list_contacts-tel::after {
             content: "";
             display: table;
-            width: 121%;
+            width: 130%;
             border-bottom: 1px solid #00bcd4;
         }
         .header-section_start {
@@ -432,6 +435,7 @@
         .flex-wrap_header-section-list {
             display: block;
             padding: 0;
+            margin-top: 15px;
            
         }
         .flex-wrap_header-section-list_qualities {
@@ -442,13 +446,15 @@
             position: absolute;
             top: 703px;
             left: 48px;
+            width: 260px;
             padding: 10px 10px;
+            border: none;
             background-color: #00bcd4;
             color: #242427;
-            border: none;
             font-family: $primary-font;
+            font-size: 15px;
             text-transform: uppercase;
-            font-weight: 900;
+            font-weight: 700;
         }
         .header-section-button::before {
             content: "";

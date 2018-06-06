@@ -187,7 +187,7 @@
 @media (min-width:1151px) {
     .wrapper_suit {
         position: relative;
-        background: url(../img/check-x.png) no-repeat 90% 75%,#2c2b2f;
+        background: url(../img/check-x.png) no-repeat 90% 70%,#2c2b2f;
         background-size: 30%;
     }
     .wrapper_suit-section-title::after {
@@ -208,7 +208,11 @@
     }
     .article_list-item {
         font-size: 18px;
-        padding: 0 80px 40px 20px;
+        padding: 0 80px 30px 80px;
+    }
+    .red-item::before,
+    .blue-item::before {
+        left: 40px;
     }
     .wrapper_suit-section-text {
         font-size: 17px;

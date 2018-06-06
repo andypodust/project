@@ -14,6 +14,9 @@
 .wrapper_light-section-header {
     width: 100%;
 }
+.header-br-reviews {
+    display: none;
+}
 .wrapper_light-section-title {
     font-family: $primary-font;
     text-transform: uppercase;
@@ -202,12 +205,19 @@
         font-size: 42px;
         width: 350px;
     }
+    .header-br-reviews {
+        display: inline
+    }
     .wrapper_light-section-text {
         width: 450px;
+    }
+    .wrapper_light-section-text_primary, 
+    .wrapper_light-section-text_secondary {
         font-size: 18px;
     }
     .wrapper_light-section-text_primary::after {
         width: 450px;
+        height: 4px;
     }
     .video-section-wrapper {
         width: 640px;
@@ -230,17 +240,24 @@
     }
     .wrapper_light-section-list {
         width: 420px;
-        padding-left: 30px
+        padding-left: 30px;
+        margin-bottom: 60px;
+    }
+    .wrapper_light-section-list::after {
+        position: relative;
+        top: 50px
     }
     .wrapper_light-section-list-item-text {
-        font-size: 18px
+        font-size: 16px
     }
     .wrapper_light-section-text_last {
-        font-size: 18px;
-        width: 350px;
+        font-size: 24px;
+        width: 400px;
+        margin-left: 30px;
+        background: url(../img/section12bg.png) no-repeat 150px 60px
     }
     .wrapper_light-section-text_last:after {
-        left: -70px;
+        left: -30px;
     }
     .wrapper_light-section-article-list-item_video {
         width: 350px;

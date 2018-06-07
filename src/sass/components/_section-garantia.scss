@@ -32,6 +32,10 @@
 	margin-bottom: 10px;
 	font-size: 25px;
 	line-height: 30px;
+	color: #fff;
+	font-family: $primary-font;
+	text-transform: uppercase;
+	font-weight: 700;
 }
 
 .wrapper-darken_section-title_h2-span-none {
@@ -44,8 +48,8 @@
 	width: 15px;
 	border-bottom: 2px solid #00bcd4;
 	position: absolute;
-	top: 23px;
-	left: 7px;
+	top: 25px;
+	left: 0px;
 }
 
 .wrapper-darken_section-title_p {
@@ -55,6 +59,7 @@
 	font-size: 14px;
 	line-height: 20px;
 	font-weight: 900;
+	font-family: $primary-font;
 }
 
 .wrapper-darken_section-title_p-before:before {
@@ -83,6 +88,8 @@
 	font-size: 20px;
 	line-height: 24px;
 	color: #fff;
+	font-family: $extra-font;
+	font-weight: 700;
 }
 
 .wrapper-darken-career_item {
@@ -91,6 +98,8 @@
 	font-size: 14px;
 	line-height: 24px;
 	color: #d6d5d5;
+	font-weight: 600;
+	font-family: $secondary-font;
 }
 
 .text-color-white {
@@ -103,11 +112,11 @@
 }
 
 .wrapper-darken-career_item:nth-of-type(2){
-	width: 190px;
+	width: 210px;
 }
 
 .wrapper-darken-career_item:nth-of-type(3){
-	width: 250px;
+	width: 280px;
 }
 
 .wrapper-darken-career_item-before:before {
@@ -141,12 +150,14 @@
 
 .wrapper-darken-skills__p {
 	color: #fff;
-	width: 86%;
+	width: 265px;
 	padding-left: 15px;
 	margin-bottom: 40px;
 	font-size: 14px;
 	line-height: 24px;
 	color: #d6d5d5;
+	font-family: $secondary-font;
+	font-weight: 400;
 }
 
 .wrapper-darken-skills-description__item {
@@ -163,6 +174,8 @@
 	line-height: 19px;
 	color: #fff;
 	padding-top: 5px;
+	font-family: $extra-font;
+	font-weight: 700;
 }
 
 .wrapper-darken-skills-description__item-before:before{
@@ -193,10 +206,12 @@
 
 .wrapper-darken-skills-description__span {
 	display: inline-block;
-	width: 200px;
+	width: 205px;
 	font-size: 14px;
-	line-height: 17px;
+	line-height: 20px;
+	font-family: $secondary-font;
 	color: #d6d5d5;
+	font-weight: 400;
 }
 
 
@@ -232,7 +247,8 @@
 		margin-bottom: 20px;
 		font-size: 30px;
 		line-height: 40px;
-		font-weight: 900;
+		font-weight: 700;
+		font-family: $primary-font;
 	}
 
 	.wrapper-darken_section-title_h2-span-none {
@@ -255,10 +271,12 @@
 
 	.wrapper-darken_section-title_p {
 		text-align: left;
-		width: 420px;
+		width: 430px;
 		font-weight: 900;
 		font-size: 14px;
 		line-height: 24px;
+		font-family: $primary-font;
+		font-weight: 700;
 	}
 
 	.wrapper-darken_section-title_p-before:before {
@@ -308,13 +326,13 @@
 	}
 
 	.wrapper-darken-career_item:nth-of-type(2) {
-		width: 180px;
-		margin-left: 65px;
-		margin-right: 55px;
+		width: 210px;
+		margin-left: 25px;
+		margin-right: 20px;
 	}
 
 	.wrapper-darken-career_item:last-of-type {
-		width: 340px;
+		width: 380px;
 	}
 
 	.wrapper-darken-career_item {
@@ -361,6 +379,8 @@
 		left: -80px;
 		transform: rotate(90deg);
 		letter-spacing: 6px;
+		font-weight: 400;
+		font-family: $extra-font;
 	}
 
 	.wrapper-darken-skills:after {
@@ -374,15 +394,17 @@
 		right: -95px;
 		transform: rotate(90deg);
 		letter-spacing: 6px;
+		font-weight: 400;
+		font-family: $extra-font;
 	}
 
 	.wrapper-darken-skills__p {
-		width: 400px;
+		width: 450px;
 		padding-left: 0px;
 		margin: 0 auto;
 		margin-bottom: 30px;
 		font-size: 14px;
-		line-height: 24px;
+		line-height: 20px;
 		color: #d6d5d5;
 	}
 
@@ -418,6 +440,7 @@
 		display: block;
 		font-size: 24px;
 		line-height: 26px;
+		font-family: $extra-font;
 		font-weight: bold;
 		color: #00bcd4;
 		padding-left: 5px;

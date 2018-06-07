@@ -108,7 +108,7 @@
     .wrapper_faq-section {
         width: 690px;
         padding-top: 20px;
-        background: url('../img/faq2.png'), url('../img/_.png');
+        background: url('../img/faq2.png'), url('../img/question.png');
         background-repeat: no-repeat;
         background-position-x: 230px, right;
         background-position-y: 50px, 0px;
@@ -177,7 +177,7 @@
         font-size: 70px;
         font-weight: 100;
         padding-right: 50px;
-        font-family: 'Roboto';
+        font-family: $secondary-font;
         margin-left: 20px;
     }
     .section_faq-menu-item:hover>p {
@@ -197,7 +197,7 @@
     .wrapper_faq-section {
         width: 1150px;
         padding-top: 80px;
-        background-image: url('../img/faq.png'), url('../img/_2.png'), url('../img/pattern.png');
+        background-image: url('../img/faq.png'), url('../img/question.png'), url('../img/pattern.png');
         background-repeat: no-repeat;
         background-position-x: 550px, 750px, -50px;
         background-position-y: 170px, 40px, -400px;

@@ -285,15 +285,16 @@
         width: 545px;   
     }
     .section_second-article-title {
-        width: 332px;
+        width: 423px;
         padding-left: 80px;
-        font-weight: 900;
+        font-weight: 700;
+        margin-top: 20px;
     }
     .section_second-article > .link_begin {
         position: absolute;
         top: 173px;
-        width: 200px;
-        left: 110px;
+        width: 315px;
+        left: 80px;
     }
     .section_second-article-text {
         transform: rotate(90deg);
@@ -320,10 +321,10 @@
     }
     .light-bg {
         width: 822px;
-        height: 1022px;
+        height: 784px;
         position: absolute;
         background-image: url(../img/light-bg.png);
-        bottom: -223px;
+        bottom: -297px;
         right: 40px;
     }
     .bg-blue {

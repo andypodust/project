@@ -6,6 +6,7 @@
 
 .wrap-darken {
 	background-color: #28282d;
+	margin-top: 500px;
 }
 
 .wrapper-darken_section {
@@ -233,7 +234,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		width: 540px;
+		width: 700px;
 		margin-left: 55px;
 		margin-bottom: 80px;
 		color: #fff;
@@ -282,8 +283,8 @@
 	.wrapper-darken_section-title_p-before:before {
 		content: " ";
 		display: block;
-		margin-right: 100%;	
-		width: 505px;
+		margin-left: 10px;
+		width: 530px;
 		border-bottom: 2px solid #00bcd4;
 		margin-bottom: 45px;
 	}
@@ -491,7 +492,7 @@
 		margin-bottom: 20px;
 		font-size: 42px;
 		line-height: 50px;
-		font-weight: 900;
+		font-weight: 700;
 	}
 
 	.wrapper-darken_section-title_h2:first-letter {
@@ -509,7 +510,7 @@
 	}
 
 	.wrapper-darken_section-title_p {
-		width: 535px;
+		width: 600px;
 		font-weight: 900;
 		font-size: 18px;
 		line-height: 30px;
@@ -533,13 +534,13 @@
 		width: 570px;
 	}
 
-	.wrapper-darken-career-after:after {
+	/*.wrapper-darken-career-after:after {
 		content: url(../img/wrapper-darken-career-after.png);
 		position: absolute;
 		top: 35px;
 		left: -251px;
-	}
-
+	}*/
+	
 	.wrapper-darken-career-before:before {
 		content: "";
 		display: block;
@@ -603,6 +604,7 @@
 		left: -90px;
 		transform: rotate(90deg);
 		letter-spacing: 6px;
+		font-family: ;
 	}
 
 	.wrapper-darken-skills:after {
@@ -622,7 +624,13 @@
 		width: 400px;
 		margin-bottom: 30px;
 		font-size: 18px;
-		line-height: 22px;
+		line-height: 26px;
+	}
+
+	.wrapper-darken-skills-description__h3 {
+		font-size: 22px;
+		line-height: 26px;
+		padding-top: 5px;
 	}
 
 	.wrapper-darken-skills-description__span {

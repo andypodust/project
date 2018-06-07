@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="eng">
+
 <head>
     <meta charset="UTF-8">
     <title></title>
@@ -12,6 +13,33 @@
 
 <body>
     <!-- header section 01 start -->
+    <!-- modal -->
+    <div id="openModal" class="modalDialog">
+        <div>
+            <a href="#close" title="Закрыть" class="close">X</a>
+            <h2 class="modalDialog-title">Запишитесь на курс</h2>
+            <form class="modalDialog-form">
+                <div class="modalDialog-form-row">
+                    <label>Имя:</label>
+                    <input type="text">
+                </div>
+                <div class="modalDialog-form-row">
+                    <label>Телефон:</label>
+                    <input type="tel">
+                </div>
+                <div class="modalDialog-form-row">
+                    <label>E-mail:</label>
+                    <input type="email">
+                </div>
+                <div class="modalDialog-form-check">
+                    <input type="checkbox">
+                    <label>Принимаю договор <span class="modalDialog-form-check-bu">оферты</span> и даю согласие на обработку моих <span class="modalDialog-form-check-bu">персональных данных</span></label>
+                </div>   
+                <button class="link_begin" href="#">Начать обучение на курсе</button>
+            </form>
+        </div>
+    </div>
+    <!-- modal -->
     <div class="wrapper_fluid">
         <header class="header">
             <div class="header-logo">

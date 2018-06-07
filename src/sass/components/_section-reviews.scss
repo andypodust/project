@@ -63,11 +63,12 @@
 .wrapper_light-section-list-item {
     margin-bottom: 20px;
     position: relative;
+    padding-left: 20px
 }
 .wrapper_light-section-list-item::before {
     content: url(../img/list_img.png);
     position: absolute;
-    left: -40px;
+    left: -20px;
     top: 5px
 
 }
@@ -177,6 +178,7 @@
     }
     .wrapper_light-section-text_last {
         background-position-y: 120px;
+        margin-left: 0
     }
     .wrapper_light-section-article {
         position: relative;

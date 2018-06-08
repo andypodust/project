@@ -7,12 +7,15 @@ html {
 @import "mixins";
 
 @import "./components/_header.scss";
+@import "./components/_section-you-can-change.scss";
 @import "./components/_section-fullstack.scss";
 @import "./components/_section-kurs.scss";
+@import "./components/_section-soft-sklls.scss";
 @import "./components/_section-calendar.scss";
 @import "./components/_section-put.scss";
 @import "./components/_section-vacansies.scss";
 @import "./components/_section-garantia.scss";
+@import "./components/_section-study_center.scss";
 @import "./components/_section-mentors.scss";
 @import "./components/_section-reviews.scss";
 @import "./components/_section-otzyvu.scss";
@@ -21,6 +24,8 @@ html {
 @import "./components/_section-faq.scss";
 @import "./components/_section-get.scss";
 @import "./components/_section-for-you.scss";
+@import "./components/_section-change_carear.scss";
+
 
 
 

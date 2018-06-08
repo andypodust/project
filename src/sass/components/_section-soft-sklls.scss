@@ -1,0 +1,363 @@
+
+
+.wrapper_fluid-dark {
+	background-color: #2d2c30;
+}
+
+.wrapper_dark-section__title {
+	text-align: center;
+    font-size: 25px;
+    font-family: "MuseoSansCyrl";
+    color: #00bcd4;
+	margin-bottom: 30px;
+
+}
+.wrapper_dark-section__title--after::after {
+	content: '';
+	display: block;
+	margin: auto;
+	border-bottom: 2px solid #fff;
+	width: 150px;
+	margin-top: 15px;
+}
+.eto {
+	color: #fff;
+}
+.bg-img {
+	position: relative;
+	width: 100%;
+	height: 260px;
+	background-color: #222225;
+	margin-bottom: 10px;
+
+}
+.bg-img__img {
+	display: block;
+	margin: auto;
+	position: relative;
+	width: 260px;
+	height: 270px;
+}
+.menu__list {
+    font-family: "UbuntuMono";
+	position: absolute;
+	color: #fff;
+}
+.menu__list-title {
+	font-size: 14px;
+	line-height: 1.2;
+}
+.menu__list-subtitle {
+    font-size: 10px;
+    width: 190px;
+}
+.menu__list-agile {
+	top: 155px;
+	left: 60px;
+	right: 170px;
+}
+.menu__list-skills {
+	color: #000;
+	bottom: 197px;
+	left: 160px;
+}
+.menu__list-english {
+	top: 120px;
+	left: 180px;
+}
+.list-title {
+	color: #fff;
+}
+.soft-skills__article {
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+.submenu__list {
+	line-height: 1.6;
+	color: #fff;
+}
+.soft-skills__list-title {
+    font-size: 18px;
+    font-family: "UbuntuMono";
+    color: rgb(255, 255, 255);
+    font-weight: bold;	
+    margin-bottom: 15px;
+}
+.submenu__list {
+    font-size: 14px;
+    font-family: "UbuntuMono";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.7;
+}
+
+.btn-start {
+	margin: auto;
+	width: 290px;
+	height: 55px;
+	background: linear-gradient( to left, #fb1a3c, #ffb21b);
+	text-align: center;
+	border-radius: 5%;
+	margin-bottom: 40px;
+}
+
+.btn-start__link {
+	line-height: 55px;
+	font-size: 14px;
+    font-family: "MuseoSansCyrl";
+	color: #fff;
+	text-decoration: none;
+}
+.list-description__line-skills {
+	display: none;
+}
+.list-description__line-agile {
+	display: none;
+}
+.list-description__line-english {
+	display: none;
+}
+.list-description__line-agile-desctop {
+	display: none;
+	position: absolute;
+}
+.list-description__line-english-desctop {
+	display: none;
+	position: absolute;
+}
+.list-description__line-skills-desctop {
+	display: none;
+	position: absolute;
+}
+@media(min-width: 768px) {
+	.wrapper_dark-section__title--after::after {
+		width: 270px;
+	}
+	.wrapper_dark-section__title {
+    	font-size: 30px;
+	}	
+	.wrapper_dark-section__title--after::after {
+		width: 350px;
+	}
+	.bg-img {
+		width: 530px;
+		height: 700px;
+		margin-bottom: 230px;
+	}
+	.bg-img__img {
+		margin: auto;
+		width: 580px;
+		height: 600px;
+		margin-left: 55px;
+		top: 60px;
+	} 
+
+	.menu__list-title {
+		 font-size: 30px;
+		 line-height: 1.2;	
+	}
+	.menu__list-subtitle {
+  		font-size: 18px;	
+	}
+	.menu__list-agile {
+		top: 420px;
+		left: 170px;
+	}
+	.menu__list-skills {
+		bottom: 510px;
+		left: 380px;
+	}
+	.menu__list-english {
+		top: 360px;
+		left: 420px;
+	}
+	.soft-skills__article {
+		position: absolute;
+		display: none;
+	}
+	.menu__list-description {
+		left: 500px;
+		top: 300px;
+	}
+	.menu__list-description {
+		position: absolute;
+		color: #fff;
+		width: 530px;
+		display: none;
+	}
+	.list-description__title {
+		font-size: 30px;
+  		font-family: "UbuntuMono";
+  		margin-bottom: 20px;
+	}
+	.list-description__text {
+		font-size: 14px;
+ 	    font-family: "UbuntuMono";
+  		line-height: 1.7;
+	}
+	.menu__list-description-agile {
+		top: 325px;
+		left: -60px;
+	}
+	.menu__list-description-skills {
+		top: 647px;
+		left: -273px;
+	}
+	.menu__list-description-english {
+		top: 385px;
+		left: -315px;
+	}
+	.menu__list-agile--hover:hover > .menu__list-description-agile {
+		display: block;
+	} 
+	.menu__list-english--hover:hover > .menu__list-description-english {
+		display: block;
+	} 
+	.menu__list-skills--hover:hover > .menu__list-description-skills {
+		display: block;
+	} 
+
+	.list-description__line-english {
+		position: absolute;
+		right: 10px;
+		top: 115px;
+	}
+	
+	.list-description__line-skills-1 {
+		position: absolute;
+		top: 652px;
+		left: 35px;
+	}
+	.list-description__line-skills-2 {
+		position: absolute;
+		left: 282px;
+		top: 20px;
+	}
+	.list-description__line-skills-3 {
+		position: absolute;
+		left: 162px;
+		top: 20px;
+		width: 120px;
+	}
+
+	.list-description__line-agile-1 {
+		position: absolute;
+		top: 130px;
+		left: -90px;
+	} 
+	.list-description__line-agile-2 {
+		position: absolute;
+		top: 230px;
+		left: -98px;
+		height: 210px;
+	}
+	.menu__list-skills--hover:hover > .list-description__line-skills {
+		display: block;
+	}
+	.menu__list-english--hover:hover > .list-description__line-english {
+		display: block;
+	}
+	.menu__list-agile--hover:hover > .list-description__line-agile {
+		display: block;
+	}
+}
+@media(min-width: 1151px) {
+	.wrapper_dark-section {
+		position: relative;
+	}
+	.wrapper_dark-section {
+		height: 980px;
+	}
+	.bg-img {
+		margin-top: 100px;
+		height: 720px;
+		margin-bottom: 100px;
+	}
+	.bg-img__img {
+		top: 20px;
+		width: 590px;
+		height: 610px; 
+	}
+	.wrapper_dark-section__title {
+		position: absolute;
+		top: 220px;
+		right: 60px;
+		font-size: 38px;
+	}
+	.wrapper_dark-section__title--after::after {
+		width: 390px;
+	}
+	.menu__list-skills--hover:hover > .list-description__line-skills {
+		display: none;
+	}
+	.menu__list-english--hover:hover > .list-description__line-english {
+		display: none;
+	}
+	.menu__list-agile--hover:hover > .list-description__line-agile {
+		display: none;
+	}
+	.list-description__title {
+  		font-size: 36px;
+	}
+	.list-description__text {
+		width: 350px;
+  		font-size: 18px;	
+	}
+	/**/
+	.menu__list-agile {
+		top: 380px;
+		left: 170px;
+	}
+	.menu__list-skills {
+		bottom: 560px;
+		left: 380px;
+	}
+	.menu__list-english {
+		top: 310px;
+		left: 430px;
+	}
+
+	.menu__list-description-agile {
+		top: -125px;
+		left: 535px;
+	}
+	.menu__list-description-skills {
+		top: 175px;
+		left: 325px;
+	}
+	.menu__list-description-english {
+		top: -55px;
+		left: 275px;
+	}
+	.list-description__line-agile-desctop {
+		top: 120px;
+		left: 270px;
+	}
+	.list-description__line-english-desctop {
+		top: 136px;
+		left: 175px;
+	}
+	.list-description__line-skills-desctop {
+		top: 5px;
+		left: 170px;
+	}
+	.menu__list-skills--hover:hover > .list-description__line-skills-desctop {
+		display: block;
+	}
+	.menu__list-english--hover:hover > .list-description__line-english-desctop  {
+		display: block;
+	}
+	.menu__list-agile--hover:hover > .list-description__line-agile-desctop {
+		display: block;
+	}
+	.btn-start {
+		position: absolute;
+		bottom: 150px;
+		right: 155px;
+	}
+
+	
+}

@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+.container {
+  padding: 30px 0;
+  margin: auto;
+} 
+.bblue {
+    color: #00bcd4; 
+}
+
+@media(min-width: 320px) {
+  .container {
+    width: 290px;
+  }
+  .br-tablet {
+    display: none;
+  }
+}
+
+@media(min-width: 768px) {
+  .container {
+    width: 690px;
+  }
+  .container570px {
+    width: 570px;
+    margin: auto;
+  }
+  .bgc-dark-md {
+    background-color: #242427;
+      padding: 1px 10px 3px 8px;
+  }
+  .br-mob {
+    display: none;
+  }
+  .br-tablet {
+    display: block;
+  }
+} 
+@media (min-width: 1151px) {
+  .container {
+    width: 1150px;
+    /*background-color: #FAEBD7;  */
+  }
+}
+.perenos {
+  display: none;
+}
+.bgc-dark {
+  background-color: #242427;
+  padding: 1px 10px 3px 8px;
+}
+
+
+
+
+
+/*=====================================================================*/
+
+
+
+
+.wrapper_white-section__title {
+  font-size: 25px;
+    font-family: "MuseoSansCyrl";
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;   
+}
+.wrapper_white-section__title--after:after {
+  content: '';
+  display: block;
+  margin: auto;
+  border-top: 2px solid #000;
+  width: 150px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.wrapper_white-section_list__item {
+  position: relative;
+    margin-bottom: 35px;
+}
+
+.wrapper_white-section__text {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "MuseoSansCyrl";
+    text-transform: uppercase;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.wrapper_white-section_list__title {
+  font-size: 18px;
+    font-family: "UbuntuMono";
+    font-weight: bold;
+    margin-bottom: 25px;
+    padding-left: 40px;
+}
+.rapper_white-section_list__text {
+    font-size: 14px;
+    font-family: "OpenSans";
+    line-height: 1.7;
+}
+.wrapper_white-section_list__item-1--before:before {
+  content: url('img/karuchka-min.png');
+  position: absolute;
+  top: -10px;
+}
+.wrapper_white-section_list__item-2--before:before {
+  content: url('img/karuchka2-min.png');
+  position: absolute;
+  top: -10px;
+}
+.wrapper_white-section_list__item-3--before:before {
+  content: url('img/karuchka3-min.png');
+  position: absolute;
+  top: -10px;
+}
+.wrapper_white-section_list__item-4--before:before {
+  content: url('img/karuchka4-min.png');
+  position: absolute;
+  top: -10px;
+}
+.wrapper_white-section_list__item-5--before:before {
+  content: url('img/karuchka5-min.png');
+  position: absolute;
+  top: -10px;
+}
+.bold-and-underline {
+  font-weight: 900;
+  text-decoration: underline solid #00bcd4;
+}
+.menu__list-description {
+  display: none;
+}
+
+@media(min-width: 768px) {
+  .perenos {
+    display: inline-block;
+  }
+    .wrapper_white-section {
+    }
+    .wrapper_white-section_list__item-1 {
+      margin-top: 70px;
+    }
+  .wrapper_white-section__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+  }
+  .wrapper_white-section_list__item {
+    width: 46%;
+    min-height: 140px;
+  }
+  
+  .wrapper_white-section__title {
+    width: 300px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .wrapper_white-section__title--after:after {
+    display: none;
+  }
+  .wrapper_white-section__text {
+    width: 300px;
+    text-align: right;
+    line-height: 1.5;
+    position: relative;
+  }
+  .wrapper_white-section__text--after:after {
+    content: '';
+    width: 300px;
+    left: 0px;
+    position: absolute;
+    border-bottom: 1.5px solid #000;
+  }
+  .menu__list-description {
+    display: block;
+  }
+  .wrapper_white-section_list__item-4,
+  .wrapper_white-section_list__item-5 {
+    margin-bottom: 0;
+  }
+}
+@media(min-width: 1151px) {
+  .wrapper_white-section__section__title-block {
+    width: 445px;
+  }
+  .wrapper_white-section__title {
+    width: 100%;
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+  .wrapper_white-section__text {
+        font-size: 18px;
+    width: 100%;
+  }
+  .wrapper_white-section__text--after:after {
+    width: 100%;
+  }
+  .wrapper_white-section_list__text {
+    font-size: 18px;
+    width: 75%;
+    line-height: 1.4;
+  }
+  .wrapper_white-section_list__title {
+      font-size: 30px;
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+  .wrapper_white-section_list__item-1--before:before {
+    content: url('img/kar-1-fordesktop-min.png');
+    position: absolute;
+    left: -70px;
+    }
+  .wrapper_white-section_list__item-2--before:before {
+    content: url('img/kar-2-fordesktop-min.png');
+    position: absolute;
+    left: -70px;
+  }
+  .wrapper_white-section_list__item-3--before:before {
+    content: url('img/kar-3-fordesktop-min.png');
+    position: absolute;
+    left: -70px;
+  }
+  .wrapper_white-section_list__item-4--before:before {
+    content: url('img/kar-4-fordesktop-min.png');
+    position: absolute;
+    left: -90px;
+  }
+  .wrapper_white-section_list__item-5--before:before {
+    content: url('img/kar-5-fordesktop-min.png');
+    position: absolute;
+    left: -70px;
+  } 
+}
+
+/*=====================================================================*/
+/*===================================================*/

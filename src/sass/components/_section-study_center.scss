@@ -1,0 +1,444 @@
+
+.wrapper-lighten {
+	padding: 30px 0;
+	background-image: url('img/shum.png');
+}
+.wrapper-lighten-section__title {
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "MuseoSansCyrl";
+    text-align: center;
+}
+.wrapper-lighten-section__title--after:after {
+	content: '';
+	display: block;
+	margin: auto;
+	border-bottom: 3px solid #000;
+	width: 45%;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+.section-list__company--before:before {
+	content: '';
+	display: block;
+	margin: auto;
+	border-bottom: 2px solid #000;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.article__title {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 1.6;
+    font-family: "MuseoSansCyrl";
+    margin-bottom: 15px;
+}
+
+.wrapper-lighten-section__subtitle {
+    font-size: 16px;
+    font-family: "MuseoSansCyrl";
+    text-align: center;
+    margin-bottom: 30px;
+}
+.article-menu__text {
+    font-size: 14px;
+    font-family: "OpenSans";	
+    line-height: 1.5;
+    position: relative;
+    padding-left: 40px;
+
+}
+.article__text {
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: "OpenSans";
+    font-weight: bold;	
+    margin-bottom: 30px;
+}
+.article-menu {
+	height: 340px;	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+	margin-bottom: 40px;
+}
+.article-menu--after:after {
+	content: '';
+	display: block;
+	margin: auto;
+	border-bottom: 2px solid #000;
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.font-weight-bold {
+	font-weight: bold;
+}
+.article-menu__item {
+	position: relative;
+}
+.section-list__item-transparent {
+	height: 185px;
+	width: 185px;
+	display: none;
+}
+.article-menu__text--before:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 5px;	
+	left: 0;	
+	width: 20px;	
+	height: 20px;	
+	background-image: url(img/eleeps.png);
+	background-repeat: no-repeat;
+}
+.section-list__company {
+	font-size: 18px;
+    font-family: "UbuntuMono";
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+.section-list {
+	height: 450px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.section-list__item {
+	height: 140px;
+	width: 140px;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.section-list__it-company {
+    font-size: 16px;
+    font-family: "UbuntuMono";
+    line-height: 1.5;
+    width: 90%;
+    margin: auto;
+}
+.lighten-section-subtitle_achievements-block {
+	margin-top: 30px;
+	height: 140px;
+	width: auto;
+	background-color: #fff;
+	padding-top: 1px
+}
+.lighten-section-subtitle_achievements {
+    font-size: 16px;
+    font-family: "MuseoSansCyrl";	
+    width: 65%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.lighten-section-subtitle_achievements--before:before {
+    margin: auto;
+	content: '';
+	display: block;
+	border-top: 3px solid #000;
+	width: 150px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}	
+.section-menu {
+	height: 1150px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.section-menu__item {
+	height: 370px;
+	padding: 20px;
+}
+.section-menu__item-3 {
+	position: relative;
+}
+.section-menu__item-1 {
+	background-image: url('img/nah1-min.png');
+	background-repeat: no-repeat;
+	width: 570px;
+}
+.section-menu__item-2 {
+	background-image: url('img/nag2-min.png');
+	background-repeat: no-repeat;
+}
+.section-menu__item-3 {
+    background-color: #fbfbfb;
+	background-image: url('img/nag3-2-min.png');
+	background-repeat: no-repeat;
+}
+.section-menu__item-cup {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+.ittem__contrast-text {
+
+	background-color: #242427;
+	display: inline-block;
+	line-height: 1.4;
+	padding: 0px 8px;
+	margin-bottom: 20px;
+}
+.ittem__title {
+	line-height: 1.4;
+    font-size: 14px;
+    font-family: "OpenSans";
+    font-weight: bold;
+    text-transform: uppercase;	
+}
+.ittem__text {
+	font-size: 14px;
+    font-family: "Myriad Pro";
+    line-height: 1.7;	
+}
+.ittem__text-2 {
+	width: 70%;
+}
+.ittem__text-3 {
+	width: 47%;
+}
+
+.ittem__title-1 {
+	margin-bottom: 20px;
+}
+.ittem__title-2 {
+	margin-bottom: 115px;
+}
+.ittem__title-3 {
+	margin-bottom: 115px;
+}
+
+@media(min-width: 768px) {
+	.wrapper-lighten-section__article {
+		position: relative;
+	}
+	.wrapper-lighten-section__title {
+		font-size: 29px;
+		margin-bottom: 25px;
+	}
+	.wrapper-lighten-section__subtitle-block {
+		text-align: center;	
+	}
+	.wrapper-lighten-section__subtitle {
+		margin-left: auto;
+		display: inline-block;
+		width: 300px;
+		text-align: right;
+		font-size: 18px;
+		font-weight: bold;
+		position: relative;
+		margin-bottom: 40px;
+	}
+	.wrapper-lighten-section__subtitle--after:after {
+		content: '';
+		width: 300px;
+		right: 0px;
+		position: absolute;
+		top: 19px;
+		border-bottom: 3px solid #000;
+	}
+	.wrapper-lighten-section__title--after:after {
+		display: none;
+	}
+	.article-menu__text--before:before {
+		display: none;
+	}
+	.wrapper-lighten-section__article {
+		position: relative;
+		margin-left: 100px;
+		width: 400px;
+	}
+	.article__text {
+		margin-bottom: 55px;
+	}
+	.wrapper-lighten-section__article--before:before {
+		position: absolute;
+		top: 13px;
+		left: -100px;
+		content: "";
+		display: inline-block;
+		height: 415px;
+		width: 90px;
+		background-image: url('img/karkas-min.png');
+		background-repeat: no-repeat;
+	}
+	.article-menu__text {
+		padding-left: 0;
+	}
+	.article-menu {
+		height: 270px;
+		margin-bottom: 30px;	
+	}
+	.perenos {
+		display: block;
+	}
+	.article-menu__text {
+		font-size: 14px;
+	}
+	.section-list__item {
+		height: 185px;
+		width: 185px;
+	}
+	.section-list {
+		position: relative;
+		height: 580px;
+	}
+	.container570px {
+		position: relative;
+	}
+	.section-list__company {
+		position: absolute;
+		top: 1010px;
+		left: 325px;
+		display: inline-block;
+		transform: rotate(90deg);
+		width: 290px;
+		word-spacing: 6px;
+	}
+	.section-list__it-company {
+		position: absolute;
+		display: inline-block;
+		bottom: 160px;
+		left: 35px;
+		width: 140px;
+		position: relative;
+	}
+	.section-list__company--before:before {
+		width: 400px;
+		position: absolute;
+		top: -10px;
+		right: 38px;
+	}
+	.section-list__item-transparent {
+		display: block;
+		background-color: transparent;
+	}
+	.lighten-section-subtitle_achievements-block {
+
+	}
+	.lighten-section-subtitle_achievements  {
+		width: 100%;
+		text-align: left;
+	}
+	.lighten-section-subtitle_achievements--before:before {
+		width: 50%;
+		margin-left: 0;
+		margin-bottom: 10px;
+	}
+	.section-menu {
+		height: 785px;	
+		display: flex;
+		justify-content: space-between;
+	}
+	.section-menu__item-1 {
+		position: relative;
+		background-image: url(img/nag1-min.png);
+	}	
+	.section-menu__item {
+		padding: 30px;
+		box-shadow: 1px 9px 11px 2px rgba(0,0,0,0.1);
+	}
+	.section-menu__item-2 {
+		position: relative;
+		display: inline-block;
+		width: 270px;
+		height: 370px;
+	}
+	.section-menu__item-3 {
+		position: relative;
+		display: inline-block;
+		width: 270px;	
+		height: 370px;
+	}
+	.ittem__contrast-text {
+		position: absolute;
+		transform: rotate(90deg);
+	}
+	.ittem__contrast-text-3,
+	.ittem__contrast-text-2,
+	.ittem__contrast-text-1 {
+  		font-size: 18px;
+		top: 65px;
+		left: -10px;
+	}
+	.ittem__text-1 {
+		margin-top: 130px;
+	}
+	.ittem__title-1 {
+		margin-left: 250px;
+	}
+	.ittem__title-2,
+	.ittem__title-3 {
+		width: 110px;
+		margin-left: 95px;
+		margin-top: 5px;
+	}
+	.ittem__text-1 {
+		width: 300px;
+	}
+	.section-list__item-boxshadow {
+		box-shadow: 1px 18px 20px 1px rgba(0,0,0,0.08);
+	}
+	.section-list__item-boxshadow2 {
+		box-shadow: 2px 3px 8px 1px rgba(0,0,0,0.12);
+	}
+	.section-list__item-alphabank,
+	.section-list__item-terrasoft {
+		z-index: 5;
+	}
+}
+@media(min-width: 1151px) {
+	.wrapper-lighten-section__title {
+		font-size: 42px;
+	}
+	.wrapper-lighten-section__subtitle {
+		
+	}
+	.wrapper-lighten-section__article {
+		margin-left: 0;
+	}
+	.wrapper-lighten-section__article-companyy {
+		margin-top: 30px;
+		width: 600px;
+	}
+	.wrapper-lighten-section__articls {
+		display: flex;
+		height: 650px;
+	}
+	.section-list__company {
+		top: 550px;
+		left: 760px;
+	}
+	.article-menu__text {
+  		font-size: 18px;
+	}
+	.lighten-section-subtitle_achievements {
+		position: absolute;
+  		font-size: 20px;
+		top: 710px;
+	}
+	.lighten-section-subtitle_achievements--before {
+		width: 63%;
+	}
+	.lighten-section-subtitle_achievements-block {
+		height: 0px;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.section-menu {
+		display: flex;
+		height: 370px;
+	}
+}
+
+

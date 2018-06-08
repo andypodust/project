@@ -28,7 +28,7 @@
 }
 
 .wrapper-noise-main_title {
-	width: 230px;
+	width: 250px;
 	margin: 0px auto 70px auto;
 	text-align: center;
 	font-size: 25px;
@@ -38,7 +38,6 @@
 	position: relative;
 	font-weight: 700;
 	font-family: $primary-font;
-	outline: 1px solid red;
 }
 
 .wrapper-noise-main_title:before {
@@ -48,7 +47,7 @@
 	border-bottom: 2px solid #00bcd4;
 	position: absolute;
 	top: 21px;
-	left: 18px;
+	left: 27px;
 }
 
 .wrapper-noise-main-section-list {
@@ -82,9 +81,9 @@
 }
 
 .wrapper-noise-main-section-list_item-h4 {
-	padding: 3px 5px;
+	padding: 0px 10px;
 	font-size: 20px;
-	line-height: 30px;
+	line-height: 50px;
 	font-weight: bold;
 	color: #00bcd4;
 	background-color: #242427;
@@ -99,6 +98,8 @@
 	font-size: 12px;
 	line-height: 50px;
 	color: #5f5f5f;
+	font-weight: 400;
+	font-family: $extra-font;
 }
 
 .wrapper-noise-main-section-list_item-span-long {
@@ -106,10 +107,13 @@
 }
 
 .wrapper-noise-main-section-list_item-p {
-	width: 220px;
+	width: 250px;
 	font-size: 14px;
 	line-height: 24px;
 	margin-bottom: 40px;
+	font-weight: 400;
+	font-family: $secondary-font;
+	color: #242427;
 }
 
 .wrapper-noise-main-section-list_item-a {
@@ -123,6 +127,7 @@
 	font-weight: 900;
 	margin-left: 120px;
 	margin-bottom: 10px;
+	font-family: $secondary-font;
 }
 
 .wrapper-noise-main-section-list_item-a:after {
@@ -140,7 +145,9 @@
 	width: 250px;
 	font-size: 14px;
 	line-height: 26px;
-	font-weight: 700;
+	font-weight: 900;
+	font-family: $secondary-font;
+	color: #242427;
 }
 
 
@@ -149,7 +156,7 @@
     margin: 0 auto;
     display: block;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $primary-font;
     font-size: 14px;
     text-transform: uppercase;
     color: #fff;
@@ -160,6 +167,7 @@
     line-height: 55px;
     border-radius: 5px;
     box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.29);
+    font-weight: 400;
 }
 .wrapper-noise-main-link_begin:hover {
     box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.60);

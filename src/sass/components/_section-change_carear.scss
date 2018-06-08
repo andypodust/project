@@ -4,7 +4,7 @@
 .wrapper_change-section__title {
     font-size: 25px;
     font-weight: 900;
-    font-family: "MuseoSansCyrl";
+    font-family: $primary-font;
     text-transform: uppercase;
     line-height: 1.2;
     text-align: center;
@@ -29,14 +29,14 @@
 }
 .wrapper_change-section__text-1 {
     font-size: 14px;
-    font-family: "OpenSans";
+    font-family: $secondary-font;
     line-height: 1.8;
 	width: 90%;
     margin-bottom: 30px;
 }
 .wrapper_change-section__text-2 {
     font-size: 16px;
-    font-family: "Myriad Pro";
+    font-family: $extra-font-second;
     text-transform: uppercase;
   	line-height: 1.5;
   	margin-bottom: 20px;
@@ -44,7 +44,7 @@
 }
 .wrapper_change-section__text-3 {
 	font-size: 14px;
-  	font-family: "Myriad Pro";
+  	font-family: $extra-font-second;
     line-height: 1.5;
     width: 80%;
     margin-bottom: 30px;
@@ -62,7 +62,7 @@
 }
 .wrapper_change-section__text-4 {
 	font-size: 14px;
-    font-family: "Myriad Pro";
+    font-family: $extra-font-second;
     line-height: 1.6;
 }
 .transparent-block-1 {

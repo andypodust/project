@@ -7,7 +7,7 @@
 .wrapper_dark-section__title {
 	text-align: center;
     font-size: 25px;
-    font-family: "MuseoSansCyrl";
+    font-family: $primary-font;
     color: #00bcd4;
 	margin-bottom: 30px;
 
@@ -39,7 +39,7 @@
 	height: 270px;
 }
 .menu__list {
-    font-family: "UbuntuMono";
+    font-family: $extra-font;
 	position: absolute;
 	color: #fff;
 }
@@ -81,14 +81,14 @@
 }
 .soft-skills__list-title {
     font-size: 18px;
-    font-family: "UbuntuMono";
+    font-family: $extra-font;
     color: rgb(255, 255, 255);
     font-weight: bold;	
     margin-bottom: 15px;
 }
 .submenu__list {
     font-size: 14px;
-    font-family: "UbuntuMono";
+    font-family: $extra-font;
     color: rgb(255, 255, 255);
     font-weight: bold;
     line-height: 1.7;
@@ -107,7 +107,7 @@
 .btn-start__link {
 	line-height: 55px;
 	font-size: 14px;
-    font-family: "MuseoSansCyrl";
+    font-family: $primary-font;
 	color: #fff;
 	text-decoration: none;
 }
@@ -190,12 +190,12 @@
 	}
 	.list-description__title {
 		font-size: 30px;
-  		font-family: "UbuntuMono";
+  		font-family: $extra-font;
   		margin-bottom: 20px;
 	}
 	.list-description__text {
 		font-size: 14px;
- 	    font-family: "UbuntuMono";
+ 	    font-family: $extra-font;
   		line-height: 1.7;
 	}
 	.menu__list-description-agile {

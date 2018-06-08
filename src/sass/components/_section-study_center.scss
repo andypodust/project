@@ -6,7 +6,7 @@
 .wrapper-lighten-section__title {
     font-size: 25px;
     font-weight: 900;
-    font-family: "MuseoSansCyrl";
+    font-family: $primary-font;
     text-align: center;
 }
 .wrapper-lighten-section__title--after:after {
@@ -31,19 +31,19 @@
 	font-size: 16px;
 	font-weight: 800;
 	line-height: 1.6;
-    font-family: "MuseoSansCyrl";
+    font-family: $primary-font;
     margin-bottom: 15px;
 }
 
 .wrapper-lighten-section__subtitle {
     font-size: 16px;
-    font-family: "MuseoSansCyrl";
+    font-family: $primary-font;
     text-align: center;
     margin-bottom: 30px;
 }
 .article-menu__text {
     font-size: 14px;
-    font-family: "OpenSans";	
+    font-family: $secondary-font;	
     line-height: 1.5;
     position: relative;
     padding-left: 40px;
@@ -52,7 +52,7 @@
 .article__text {
     font-size: 16px;
     line-height: 1.4;
-    font-family: "OpenSans";
+    font-family: $secondary-font;
     font-weight: bold;	
     margin-bottom: 30px;
 }
@@ -98,7 +98,7 @@
 }
 .section-list__company {
 	font-size: 18px;
-    font-family: "UbuntuMono";
+    font-family: $extra-font;
     line-height: 1.3;
     margin-bottom: 30px;
 }
@@ -119,7 +119,7 @@
 }
 .section-list__it-company {
     font-size: 16px;
-    font-family: "UbuntuMono";
+    font-family: $extra-font;
     line-height: 1.5;
     width: 90%;
     margin: auto;
@@ -133,7 +133,7 @@
 }
 .lighten-section-subtitle_achievements {
     font-size: 16px;
-    font-family: "MuseoSansCyrl";	
+    font-family: $primary-font;	
     width: 65%;
     text-align: center;
     margin: auto;
@@ -191,13 +191,13 @@
 .ittem__title {
 	line-height: 1.4;
     font-size: 14px;
-    font-family: "OpenSans";
+    font-family: $secondary-font;
     font-weight: bold;
     text-transform: uppercase;	
 }
 .ittem__text {
 	font-size: 14px;
-    font-family: "Myriad Pro";
+    font-family: $extra-font-second;
     line-height: 1.7;	
 }
 .ittem__text-2 {

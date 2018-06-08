@@ -67,7 +67,7 @@ li {
 
 .wrapper_white-section__title {
   font-size: 25px;
-    font-family: "MuseoSansCyrl";
+    font-family: $primary-font;
     text-transform: uppercase;
     line-height: 1.2;
     text-align: center;   
@@ -89,7 +89,7 @@ li {
 .wrapper_white-section__text {
     font-size: 14px;
     font-weight: 700;
-    font-family: "MuseoSansCyrl";
+    font-family: $primary-font;
     text-transform: uppercase;
     line-height: 1.4;
     text-align: center;
@@ -97,14 +97,14 @@ li {
 }
 .wrapper_white-section_list__title {
   font-size: 18px;
-    font-family: "UbuntuMono";
+    font-family: $extra-font;
     font-weight: bold;
     margin-bottom: 25px;
     padding-left: 40px;
 }
 .rapper_white-section_list__text {
     font-size: 14px;
-    font-family: "OpenSans";
+    font-family: $secondary-font;
     line-height: 1.7;
 }
 .wrapper_white-section_list__item-1--before:before {

@@ -91,6 +91,7 @@ input[type=checkbox] {
 }
 .modalDialog-form > .link_begin {
     margin-top: 65px;
+    border: none;
 }
 .modalDialog > div {
     width: 470px;
@@ -339,10 +340,10 @@ input[type=checkbox] {
     }
     
     .flex-wrap_header-section-list :not(:last-child){
-        margin-right: 50px;
+        margin: 0 50px 0 45px;
     }
     .flex-wrap_header-section-list_qualities {
-        width: 132px;
+        width: 130px;
         font-family: $extra-font;
         margin: auto;   
     }
@@ -355,6 +356,20 @@ input[type=checkbox] {
 }
     /* header part 768px end*/
     @media (min-width:1151px){
+        input[type=text] {
+            width: 220px;
+            margin-left: 32px;
+        }
+        input[type=tel] {
+            margin-left: 8px;
+        }
+        input[type=email] {
+            width: 220px;
+            margin-left: 8px;
+        }
+        input[type=checkbox] {
+            margin-right: 20px;
+        }
         .wrapper_fluid {
             min-width: 1151px;
             height: 800px;

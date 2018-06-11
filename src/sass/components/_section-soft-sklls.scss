@@ -265,6 +265,20 @@
 	}
 }
 @media(min-width: 1151px) {
+	.wrapper_fluid-dark__container1920 {
+		position: relative;
+		width: 1920px;
+		margin: auto;
+	}
+	.wrapper_fluid-dark__container1920__img1 {
+		position: absolute;
+		bottom: 100px;
+		right: 10px;
+	}
+	.wrapper_fluid-dark__container1920__img2 {
+		position: absolute;
+		top: 0px;
+	}
 	.wrapper_dark-section {
 		position: relative;
 	}

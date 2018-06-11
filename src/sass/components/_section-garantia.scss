@@ -471,13 +471,31 @@
 		z-index: 1;
 	}
 
+<<<<<<< Updated upstream
 	.wrapper-darken_section:after {
+=======
+	/*.wrap-darken {
+		background: url(../img/wrapper-darken-desctop.png) no-repeat right bottom, url(../img/wrapper-darken-bg.png);
+	}*/
+/*
+	.wrap-bg-1920 {
+		margin: 0 auto;
+		width: 1920px;
+		background: url(../img/wrapper-darken-desctop.png) no-repeat;
+		background-position: right bottom;
+	}
+*/
+	
+	/*.wrapper-darken_section:after {
+>>>>>>> Stashed changes
 		content: url(../img/wrapper-darken-desctop.png);
 		display: inline-block;
 		position: absolute;
 		bottom: 80px;
 		right: -370px;
 	}
+
+
 
 	.wrapper-darken_section-title {
 		width: 573px;

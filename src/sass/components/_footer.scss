@@ -1,4 +1,4 @@
-footer {
+.footer {
     height: 350px;
     margin: 0 auto;
     background: #242427;
@@ -67,7 +67,7 @@ footer {
 
 }
 @media (min-width:768px){
-    footer {
+    .footer {
         display: flex;
         height: 230px;
     }

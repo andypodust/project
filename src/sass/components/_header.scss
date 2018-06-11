@@ -365,6 +365,28 @@ input[type=checkbox] {
 }
     /* header part 768px end*/
     @media (min-width:1151px){
+        .modalDialog {
+            top: -60px;
+        }
+        .modalDialog > div {
+            width: 350px;
+            height: 570px;
+        }
+        .modalDialog-form-row-name {
+            margin-left: 0;
+        }
+        .modalDialog-form-row-tel {
+            margin: 0;
+        }
+        .modalDialog-form-row-email {
+            margin: 0;
+        }
+        .modalDialog-form-check {
+            margin: 35px auto 0 auto;
+        }
+        .modalDialog-form > .link_begin {
+            margin-top: 40px;
+        }
         input[type=text] {
             width: 220px;
             margin-left: 32px;

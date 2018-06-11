@@ -470,6 +470,14 @@
 		z-index: 1;
 	}
 
+	.wrap-bg-1920 {
+		width: 1920px;
+		background-image: url(../img/wrapper-darken-desctop.png);
+		background-position: right bottom
+		background-repeat: no-repeat;
+	}
+
+	
 	/*.wrapper-darken_section:after {
 		content: url(../img/wrapper-darken-desctop.png);
 		display: inline-block;

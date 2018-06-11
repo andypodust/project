@@ -428,7 +428,6 @@
 		line-height: 22px;
 		padding-top: 5px;
 	}
-	
 
 
 	.wrapper-darken-skills-description__span {
@@ -471,9 +470,6 @@
 		z-index: 1;
 	}
 
-<<<<<<< Updated upstream
-	.wrapper-darken_section:after {
-=======
 	/*.wrap-darken {
 		background: url(../img/wrapper-darken-desctop.png) no-repeat right bottom, url(../img/wrapper-darken-bg.png);
 	}*/
@@ -487,13 +483,12 @@
 */
 	
 	/*.wrapper-darken_section:after {
->>>>>>> Stashed changes
 		content: url(../img/wrapper-darken-desctop.png);
 		display: inline-block;
 		position: absolute;
 		bottom: 80px;
 		right: -370px;
-	}
+	}*/
 
 
 
@@ -552,12 +547,12 @@
 		width: 570px;
 	}
 
-	/*.wrapper-darken-career-after:after {
+	.wrapper-darken-career-after:after {
 		content: url(../img/wrapper-darken-career-after.png);
 		position: absolute;
 		top: 35px;
 		left: -251px;
-	}*/
+	}
 	
 	.wrapper-darken-career-before:before {
 		content: "";

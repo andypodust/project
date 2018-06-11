@@ -51,12 +51,13 @@
     font-weight: 700;
 }
 .wrapper_prof-section-list {
-    margin: 15px 15px;
+    margin: 15px auto;
     padding: 0;
+    width: 290px;
 }
 .wrapper_prof-section-list-item {
     list-style: none;
-    box-shadow: -14px 17px 0px 1px rgba(0,180,203,1);
+    // box-shadow: -14px 17px 0px 1px rgba(0,180,203,1);
 }
 .wrapper_prof-section-list-item-title {
     margin-bottom: 15px;
@@ -194,7 +195,8 @@
     .wrapper_prof-section > .link_begin {
         position: absolute;
         bottom: 100px;
-        left: 230px;
+        left: 320px;
+        width: 240px;
     }
     .bg-texture-right {
         display: none;

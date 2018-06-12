@@ -101,6 +101,12 @@
     }
 }
 @media (min-width:1151px){
+    .wrap-footer {
+        width: inherit;
+    }
+    .footer {
+        width: 1151px;
+    }
     .footer-contacts {
         margin: 0px auto 0 210px;
     }

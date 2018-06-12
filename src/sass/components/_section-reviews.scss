@@ -121,6 +121,9 @@
     transform: translate(-50%, -50%) 
 }
 @media (min-width: 768px) {
+    .wrapper_light {
+        background-image: none
+    }
     .wrapper_light-section {
         width: 690px;
     }

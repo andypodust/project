@@ -175,7 +175,6 @@
 	
 	.wrapper-fluide-noise {
 		background: transparent;
-/*		background-image: url();*/
 		padding-bottom: 60px;
 	}
 
@@ -191,7 +190,7 @@
 		margin-bottom: -1395px; 
 	}
 
-	.wrapper-fluide-noise-block-blue {
+/*	.wrapper-fluide-noise-block-blue {
 		display: block;
 		width: 400px;
 		height: 280px;
@@ -200,7 +199,7 @@
 		top: 0;
 		right: 0;
 		z-index: -4;
-	}
+	}*/
 
 	.wrapper-noise-main {
 		width: 690px;
@@ -346,26 +345,46 @@
 @media screen and (min-width: 1151px) {
 	.wrapper-noise-main {
 		width: 1151px;
-		padding-top: 100px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		position: relative;
+		z-index: 3;
+		margin-top: -200px;
 	}
 
+	.wrapper-fluide-noise {
+		padding-bottom: 0px;
+	}
+		
 	.wrapper-noise-main_title {
 		width: 870px;
 		font-size: 42px;
 		line-height: 50px;
-		margin-bottom: 120px;
+		margin-bottom: 70px;
 	}
 
 	.clip-path {
 		display: block;
-		height: 1430px;
+		height: 1570px;
 		background-image: url(../img/light-bg.png);
 		background-repeat: repeat;
-		clip-path: polygon(0 0, 100% 22%, 100% 100%, 0% 100%);
+		clip-path: polygon(0 0, 100% 40%, 100% 100%, 0% 100%);
 		position: relative;
-		z-index: 1;
-		top: 0px;
-		margin-bottom: -1530px; 
+		z-index: 2;
+		margin-top: -280px; 
+		top: 40px;
+	}
+
+	.block-blue-right {
+		display: block;
+		width: 500px;
+		height: 280px;
+		background-image: url(../img/blue-bg.png);
+		background-repeat: repeat;
+		position: relative;
+		left: 1200px;
+		top: 640px;
+		z-index: -2;
 	}
 
 	.wrapper-noise-main_title:before {

@@ -28,7 +28,7 @@
     padding-top: 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 900;
     text-transform: uppercase;
 }
 .wrap-it-dev-text {
@@ -240,6 +240,7 @@
     .wrap-it-dev-title {
         width: 577px;
         margin: 0 auto;
+        font-size: 42px;
     }
     .wrap-it-dev_bg-grey {
         display: block;
@@ -392,8 +393,8 @@
     .wrap-it-dev_bg-blue-white {
         display: block;
         position: absolute;
-        top: 400px;
-        right: 30px;
+        bottom: 208px;
+        right: 70px;
         width: 100px;
         height: 400px;
         opacity: .36;

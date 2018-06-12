@@ -190,6 +190,23 @@
         left: 311px;
         width: 263px;
     }
+    .position-desktop1 {
+        position: absolute;
+        left: -288px;
+        top: 33px;
+    }
+    .position-desktop2 {
+        position: absolute;
+        left: -150px;
+        top: 73px;
+        z-index: 2;
+    }
+    .position-desktop3 {
+        position: absolute;
+        left: -288px;
+        top: 640px; 
+    }
+
     .position-tablet3 {
         top: 658px;
         left: -100px;

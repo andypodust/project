@@ -7,7 +7,6 @@
 	width: 290px;
 	margin: 0 auto;
 	padding-top: 50px;
-	outline: 1px solid red;
 }
 
 .wrapper-white_section-title {
@@ -22,7 +21,6 @@
     text-transform: uppercase;
 	position: relative;
 	margin-bottom: 10px;
-    outline: 1px solid red;
 }
 
 
@@ -252,7 +250,6 @@
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        position: relative;
         padding-top: 125px;
         background-image: url(../img/wrapper-light_namber-bg.png);
         background-repeat: no-repeat;
@@ -502,6 +499,9 @@
 
     .wrapper-light_namber {
         padding-top: 0px;
+        background-image: url(../img/wrapper-light_namber-bg-desktop.png);
+        background-position: right top;
+        background-repeat: no-repeat;
     }
 
     .wrapper-light_namber:before {
@@ -557,9 +557,10 @@
     }
 
     .wrapper-light_section-menu_item-span-last {
-        width: 500px;
+        width: 530px;
         font-size: 18px;
         line-height: 26px;
+        font-weight: 900;
     }
 
     .wrapper-light_section-menu_item {

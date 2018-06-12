@@ -181,14 +181,14 @@
 
 	.clip-path {
 		display: block;
-		height: 2000px;
+		height: 1380px;
 		background-image: url(../img/light-bg.png);
 		background-repeat: repeat;
 		clip-path: polygon(0 0, 100% 22%, 100% 100%, 0% 100%);
 		position: relative;
 		z-index: 1;
 		top: 0px;
-		margin-bottom: -2000px; 
+		margin-bottom: -1395px; 
 	}
 
 	.wrapper-fluide-noise-block-blue {
@@ -356,6 +356,18 @@
 		margin-bottom: 120px;
 	}
 
+	.clip-path {
+		display: block;
+		height: 1430px;
+		background-image: url(../img/light-bg.png);
+		background-repeat: repeat;
+		clip-path: polygon(0 0, 100% 22%, 100% 100%, 0% 100%);
+		position: relative;
+		z-index: 1;
+		top: 0px;
+		margin-bottom: -1530px; 
+	}
+
 	.wrapper-noise-main_title:before {
 		content: "";
 		display: block;
@@ -496,6 +508,7 @@
 		height: 70px;
 		line-height: 70px;
 		font-size: 16px;
+		margin-left: 0px;
 	}
 }
 

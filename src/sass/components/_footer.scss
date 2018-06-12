@@ -1,7 +1,10 @@
-.footer {
-    height: 350px;
-    margin: 0 auto;
+.wrap-footer {
+    min-width: 320px;
     background: #242427;
+}
+.footer {
+    height: 300px;
+    margin: 0 auto;
 }
 .footer-contacts {
     margin: 0 auto;
@@ -61,6 +64,7 @@
 }
 .footer-social-copywrite {
     width: 218px;
+    margin-top: 15px;
     color: #fff;
     font-size: 14px;
     font-family: 'Ubuntu Mono', monospace;
@@ -76,7 +80,10 @@
         text-align: right;
     }
     .footer-contacts {
-        margin: 0 auto 0 56px;
+        margin: 15px auto 0 56px;
+    }
+    .footer-contacts-phone {
+        padding: 15px 0;
     }
     .footer-social::before {
         width: 400px;

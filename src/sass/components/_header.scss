@@ -675,5 +675,8 @@ input[type=checkbox] {
             width: 65px;
             transition: all 1s;
         }
+        .flex-wrap_header-section-list :not(:last-child){
+	    margin: 15px 50px 45px 0px;
+	}
     }
         /* header section 1151px end */

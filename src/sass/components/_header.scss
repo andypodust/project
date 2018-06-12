@@ -101,6 +101,7 @@ input[type=checkbox] {
 .modalDialog-form > .link_begin {
     margin-top: 22px;
     border: none;
+    width: 250px;
 }
 .modalDialog > div {
     width: 290px;
@@ -275,7 +276,7 @@ input[type=checkbox] {
 /* header part 768px*/
 
 @media (min-width:768px){
-    .modalDialog {
+    /*.modalDialog {
         top: -40px;
     }
     .modalDialog > div {
@@ -289,16 +290,20 @@ input[type=checkbox] {
     }
     .modalDialog-form-row-email {
         margin-left: 125px;
-    }
-    input[type="email"] {
-        margin: 20px 0 0 30px;
+    }*/
+    /*input[type="email"]{
+        margin: 0;
+        width: 310px;
     }
     input[type="tel"] {
-        margin: 20px 0 0 30px;
+                margin: 0;
+        width: 310px;
     }
     input[type="text"] {
-        margin: 20px 0 0 30px;
-    }
+        margin: 0;
+        width: 310px;
+    }*/
+    
     .wrapper_fluid {
         min-width: 768px;
         height: 660px;
@@ -362,7 +367,7 @@ input[type=checkbox] {
         width: 167px;
         font-family: $primary-font;
         font-size: 16px;
-        // text-align: center;
+        text-align: center;
         text-transform: uppercase;
         line-height: 22px;
         border-right: 1px solid #fff;
@@ -390,7 +395,7 @@ input[type=checkbox] {
 }
     /* header part 768px end*/
     @media (min-width:1151px){
-        .modalDialog {
+        /*.modalDialog {
             top: -60px;
         }
         .modalDialog > div {
@@ -425,7 +430,7 @@ input[type=checkbox] {
         }
         input[type=checkbox] {
             margin-right: 20px;
-        }
+        }*/
         .wrapper_fluid {
             min-width: 1151px;
             height: 800px;
@@ -676,7 +681,7 @@ input[type=checkbox] {
             width: 65px;
             transition: all 1s;
         }
-	 .header-section-button {
+	    .header-section-button {
            outline: none;
 	 }
         .flex-wrap_header-section-list :not(:last-child){

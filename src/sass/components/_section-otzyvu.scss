@@ -353,6 +353,7 @@
 	}
 
 	.wrapper-fluide-noise {
+		position: relative;
 		padding-bottom: 0px;
 	}
 		
@@ -387,6 +388,19 @@
 		z-index: -2;
 	}
 
+	.clip_bottom {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 1151px;
+		height: 600px;
+		-webkit-clip-path: polygon(0 68%,100% 40%,100% 100%,0 100%);
+		clip-path: polygon(0 68%,100% 40%,100% 100%,0 100%);
+		background-image: url(../img/darker-clip.png);
+		background-repeat: repeat;
+		z-index: -1;
+	}
+
 	.wrapper-noise-main_title:before {
 		content: "";
 		display: block;
@@ -404,6 +418,7 @@
 		flex-wrap: wrap;
 		padding: 20px 15px;
 		position: relative;
+		z-index: 3;
 	}
 
 	.wrapper-noise-main-section-list_item-h4 {
@@ -493,6 +508,7 @@
 		line-height: 26px;
 		font-weight: 900;
 		padding-top: 20px;
+		z-index: 3;
 	}
 
 	.wrapper-noise-main-section_p-span {
@@ -528,6 +544,7 @@
 		line-height: 70px;
 		font-size: 16px;
 		margin-left: 0px;
+		z-index: 3;
 	}
 }
 

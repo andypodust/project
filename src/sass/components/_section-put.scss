@@ -473,6 +473,7 @@
         width: 1151px;
         padding-top: 50px;
         position: relative;
+        z-index: 2;
     }
 
     .wrapper-light_section:after {
@@ -480,6 +481,15 @@
         position: absolute;
         top: 500px;
         left: -300px;
+    }
+
+    .wrapper-light_section:before {
+        content:  url(../img/wrapper-light_namber-bg-desktop.png);
+        position: absolute;
+        top: -10px;
+        left: 300px;
+        z-index: 1;
+
     }
 
     .wrapper-white_section-title {
@@ -507,9 +517,7 @@
 
     .wrapper-light_namber {
         padding-top: 0px;
-        background-image: url(../img/wrapper-light_namber-bg-desktop.png);
-        background-position: right top;
-        background-repeat: no-repeat;
+        background-image: none;
     }
 
     .wrapper-light_namber:before {

@@ -150,7 +150,7 @@
         background: url(../img/check-v.png) no-repeat;
         width: 100%;
         background-size: 40%;
-        height: 850px;
+        height: 700px;
         position: absolute;
         top: 80px;
         left: -50px;
@@ -217,6 +217,7 @@
     }
     .wrapper_suit-section-title::after {
         left: 150px;
+        height: 850px;
         // top: 150px;
         background-size: 35%
     }

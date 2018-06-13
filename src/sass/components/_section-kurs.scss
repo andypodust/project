@@ -458,6 +458,8 @@
 	.wrapper_white {
 		width: 1150px;
 		padding-bottom: 0px;
+		position: relative;
+		z-index: 2;
 	}
 
 	.wrapper_white-section_skills-title {

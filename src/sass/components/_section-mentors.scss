@@ -263,10 +263,10 @@
         z-index: -1;
     }
     .wrapper_prof-section {
-        width: 1130px;
+        width: 690px;
         height: 800px;
         position: absolute;
-        left: 570px;
+        right: 0;
         z-index: -1;
     }
     .wrapper_prof-section-title {
@@ -276,6 +276,7 @@
     .wrapper_prof-section-text_primary {
         top: 220px;
         left: 60px;
+        width: 483px;
         font-size: 18px;
     }
     /* teachers block 1151px end*/
@@ -295,7 +296,7 @@
         height: 600px;
         position: absolute;
         top: 463px;
-        right: 75px;
+        right: 0;
         background-color: rgba(255, 255, 255, 0.5);
     }
     .wrapper_prof-section-list {
@@ -339,7 +340,7 @@
         height: 697px;
         position: absolute;
         bottom: -283px;
-        right: 275px;
+        right: 0;
         background: url('../img/bg-texture-right.png') no-repeat 50% 50%;
         background-size: auto auto;
         background-size: 100%;

@@ -143,8 +143,10 @@ li {
 }
 
 @media(min-width: 768px) {
+
   .wrapper_white-section {
-      margin-bottom: 15px;
+    padding-top: 70px;
+      margin-bottom: 15 px;
     }
   .perenos {
     display: inline-block;
@@ -196,6 +198,9 @@ li {
   }
 }
 @media(min-width: 1151px) {
+  .wrapper_white-section {
+    padding-top: 130px;
+  }
   .wrapper_white-section_list__item-1 {
       margin-top: 110px;
     }

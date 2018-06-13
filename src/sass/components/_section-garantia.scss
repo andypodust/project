@@ -470,25 +470,16 @@
 		z-index: 1;
 	}
 
-	/*.wrap-darken {
-		background: url(../img/wrapper-darken-desctop.png) no-repeat right bottom, url(../img/wrapper-darken-bg.png);
-	}*/
-
-	/*.wrap-1920 {
-		margin: 0 auto;
-		max-width: 1920px;
-		background: url(../img/wrapper-darken-desctop.png) no-repeat;
-		background-position: right bottom;
-	}*/
+	
 
 	
-	/*.wrapper-darken_section:after {
+	.wrapper-darken_section:after {
 		content: url(../img/wrapper-darken-desctop.png);
 		display: inline-block;
 		position: absolute;
 		bottom: 80px;
 		right: -370px;
-	}*/
+	}
 
 
 

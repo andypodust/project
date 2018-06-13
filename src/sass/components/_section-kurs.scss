@@ -40,12 +40,12 @@
 	margin: 15px auto 35px;
 }
 
-.wrapper_white-section_skills-list {
+/*.wrapper_white-section_skills-list {
 	list-style: none;
-}
+}*/
 
 .block-time {
-	list-style: none;
+	/*list-style: none;*/
 	width: 185px;
 	margin: 0 auto 60px;
 }
@@ -113,13 +113,13 @@
 
 
 /*---------------------------------------------------------*/
-.program-titles {
+/*.program-titles {
 	list-style: none;
-}
+}*/
 
 .program-titles_title {
 	background-color: #eeeeee;
-	list-style: none;
+	/*list-style: none;*/
 	padding-top: 30px;
 	border: 1px solid silver;
 	margin-bottom: 15px;
@@ -149,7 +149,7 @@
 
 .section_skills-submenu-item {
 	background-color: #eeeeee;
-	list-style: none;
+	/*list-style: none;*/
 	padding-top: 30px;
 	border: 1px solid silver;
 	margin-bottom: 15px;
@@ -161,6 +161,8 @@
 	padding-bottom: 30px;
 	list-style-type: decimal-leading-zero;
 }
+
+
 
 .block-html-title {
 	width: 170px;
@@ -462,6 +464,17 @@
 		width: 800px;
 		font-size: 42px;
 		line-height: 50px;
+	}
+
+	.wrapper_white-section_skills-list {
+		position: relative;
+	}
+
+	.wrapper_white-section_skills-list:before {
+		content: url(../img/kurs-left.png);
+		position: absolute;
+		left: -330px;
+		top: -100px;
 	}
 	
 	.wrapper_white-section_skills-title:before {

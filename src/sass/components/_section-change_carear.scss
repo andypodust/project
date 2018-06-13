@@ -1,6 +1,13 @@
 
-
-
+.wrapper_change {
+	position: relative;
+}
+.wrapper_change-section--before:before {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 .wrapper_change-section__title {
     font-size: 25px;
     font-weight: 700;
@@ -136,6 +143,15 @@
 	}
 } 
 @media(min-width: 1151px) {
+	.wrapper_change-section--before:before {
+		content: url(../img/bg-kurs-right.png);
+		display: block;
+		position: absolute;
+		top: 0;
+		left: -190px;
+		transform: rotate(180deg);
+		opacity: 0.5;
+	}
 	.wrapper_change-section {
 		margin-bottom: 100px;
 	}

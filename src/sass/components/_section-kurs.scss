@@ -112,10 +112,7 @@
 
 
 
-/*---------------------------------------------------------*/
-/*.program-titles {
-	list-style: none;
-}*/
+
 
 .program-titles_title {
 	background-color: #eeeeee;
@@ -206,6 +203,7 @@
 	font-family: $secondary-font;
 	font-weight: 400;
 	margin-bottom: 25px;
+	list-style-type: decimal-leading-zero;
 }
 
 
@@ -666,15 +664,6 @@
 		padding-left: 10px;
 	/*	outline: 1px solid red;*/
 	}
-
-	/*.submenu-item-ol {
-		position: absolute;
-		left: 0;
-		top: 0;
-		z-index: 5;
-
-	}*/
-
 
 	.block-bg-blue {
 		position: absolute;

@@ -253,6 +253,7 @@
 
 	.wrapper-darken_section-title_h2-span-none {
 		display: inline-block;
+		margin-left: 5px;
 	}
 
 	.wrapper-darken_section-title_h2:first-letter {
@@ -515,6 +516,10 @@
 		position: absolute;
 		top: 40px;
 		left: 0px;
+	}
+
+	.wrapper-darken_section-title_h2-span-none {
+		margin-left: 0px;
 	}
 
 	.wrapper-darken_section-title_p {

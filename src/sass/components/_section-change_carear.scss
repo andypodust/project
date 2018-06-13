@@ -140,6 +140,7 @@
 		margin-bottom: 100px;
 	}
 	.wrapper_change-section__title {
+		padding-top: 60px;
 		font-size: 42px;
 		margin-bottom: 60px;
 	}
@@ -147,18 +148,18 @@
 		right: -42px;	
 		top: 90px;
 		width: 475px;
-		height: 650px;	
+		height: 635px;	
 		background-color: #00b9d1;
 		position: relative;
 		margin-bottom: 30px;
 	}
 	.wrapper_change-section__img {
-		position: absolute;
+		box-shadow: -62px 49px 20px 5px hsla(4,0%,88%, .34);
 		top: -80px;	
 		left: -50px;	
 		width: 495px;
 		height: 660px;			
-	}	
+	}
 	.wrapper_change-section__motivation {
 		margin-top: 110px;
 	}

@@ -154,7 +154,7 @@
     }
     .wrapper_prof-section-title {
         position: absolute;
-        left: -65px;
+        left: -90px;
     }
     .wrapper_prof-section-text_primary {
         position: absolute;
@@ -228,7 +228,7 @@
         position: relative;
         min-width: 1151px;
         height: 1200px;
-        margin-top: 240px;
+        margin-top: -160px;
         background: url(../img/bg-texture.png);
         background-repeat: no-repeat;
         background-position: 0px 150px;
@@ -267,6 +267,16 @@
         height: 800px;
         position: absolute;
         left: 570px;
+        z-index: -1;
+    }
+    .wrapper_prof-section-title {
+        top: 125px;
+        font-size: 32px;
+    }
+    .wrapper_prof-section-text_primary {
+        top: 220px;
+        left: 60px;
+        font-size: 18px;
     }
     /* teachers block 1151px end*/
     .bg-blue-prof-section-list {
@@ -300,34 +310,35 @@
     .position-desktop1 {
         position: absolute;
         left: -288px;
-        top: 33px;
+        top: 180px;
     }
     .position-desktop2 {
         position: absolute;
         left: -150px;
-        top: 73px;
+        top: 190px;
         z-index: 2;
     }
     .position-desktop3 {
         position: absolute;
         left: -288px;
-        top: 640px; 
+        top: 750px; 
     }
     .wrapper_prof-section > .link_begin {
-        left: 95px;
+        left: 80px;
         width: 335px;
-        bottom: -320px;
+        bottom: -290px;
     }
     .wrapper_prof-section-text_last {
         font-size: 18px;
         left: 110px;
+        top: 328px;
     }
     .bg-texture-right {
         display: block;
         width: 303px;
         height: 697px;
         position: absolute;
-        bottom: -223px;
+        bottom: -283px;
         right: 10px;
         background: url('../img/bg-texture-right.png') no-repeat 50% 50%;
         background-size: auto auto;

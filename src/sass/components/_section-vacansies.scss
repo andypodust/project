@@ -296,9 +296,10 @@
     }
     .section_second-article > .link_begin {
         position: absolute;
-        top: 173px;
+        top: 120px;
         width: 315px;
         left: 80px;
+        z-index: 1;
     }
     .section_second-article-text {
         transform: rotate(90deg);

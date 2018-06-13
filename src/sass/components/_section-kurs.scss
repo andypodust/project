@@ -465,17 +465,6 @@
 		font-size: 42px;
 		line-height: 50px;
 	}
-
-	.wrapper_white-section_skills-list {
-		position: relative;
-	}
-
-	.wrapper_white-section_skills-list:before {
-		content: url(../img/kurs-left.png);
-		position: absolute;
-		left: -330px;
-		top: -100px;
-	}
 	
 	.wrapper_white-section_skills-title:before {
 		content: "";
@@ -498,7 +487,30 @@
 	.wrapper_white-section_skills-list {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-between;
+		justify-content: flex-start;
+		position: relative;
+	}
+
+	.wrapper_white-section_skills-list:before {
+		content: url(../img/kurs-left.png);
+		position: absolute;
+		left: -330px;
+		top: -100px;
+	}
+
+	.wrapper_white-section_skills-list:after {
+		content: url(../img/bg-kurs-right.png);
+		position: absolute;
+		top: 165px;
+		right: -290px;
+	}
+
+	.wrapper_white-section_skills-list_item {
+		margin-right: 100px;
+	}
+
+	.wrapper_white-section_skills-list_item:first-of-type {
+		margin-left: -20px;
 	}
 
 	.block-time {

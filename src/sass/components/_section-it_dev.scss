@@ -307,6 +307,9 @@
     .wrap-it-dev-cv_left-cv-item {
         padding-bottom: 20px;
     }
+    .wrap-it-dev-cv_right-form > .link_begin {
+        margin-top: 120px;
+    }
 }
 @media (min-width:1151px){
     .wrap-it-dev_bg-grey {
@@ -402,7 +405,7 @@
         box-shadow: 0 20px 51px rgba(0,0,0,.21);
 
     }
-    ..wrap-it-dev-cv_right-form > .link_begin {
+    .wrap-it-dev-cv_right-form > .link_begin {
         width: 290px;
         margin-top: 90px;
     }

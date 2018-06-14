@@ -391,7 +391,7 @@
 		content: url(../img/blue-otz-right.png);
 		display: block;
 		position: absolute;
-		right: 360px;
+		right: 260px;
 		bottom: 453px;
 		z-index: 1;
 	}
@@ -539,6 +539,8 @@
 		line-height: 26px;
 		font-weight: 900;
 		padding-top: 20px;
+		position: relative;
+		z-index: 3;
 	}
 
 	.wrapper-noise-main-section_p-span {

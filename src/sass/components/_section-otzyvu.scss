@@ -348,9 +348,13 @@
 		padding-top: 0px;
 		padding-bottom: 0px;
 		position: relative;
-		z-index: 3;
 		margin-top: -229px;
 		top: 200px;
+	}
+
+	.wrapper-noise-main-dop {
+		width: 1151px;
+		margin: 0 auto;
 	}
 
 
@@ -383,25 +387,22 @@
 		top: 200px;
 	}
 
-	/*.block-blue-right {
-		display: block;
-		width: 500px;
-		height: 280px;
-		background-image: url(../img/blue-bg.png);
-		background-repeat: repeat;
-		position: absolute;
-		left: 1200px;
-		top: 640px;
-		z-index: -2;
-	}*/
-
-	.wrapper-noise-main-section:after {
+	.wrapper-noise-main-dop:after {
 		content: url(../img/blue-otz-right.png);
 		display: block;
 		position: absolute;
-		left: 1200px;
-		top: 0px;
-		z-index: 4;
+		right: 360px;
+		bottom: 453px;
+		z-index: 1;
+	}
+
+	.wrapper-noise-main:before {
+		content: url(../img/otz-img.png);
+		display: block;
+		position: absolute;
+		left: -200px;
+		bottom: -30px;
+		z-index: 3;
 	}
 
 
@@ -413,8 +414,6 @@
 		top: 910px;
 		z-index: 2;
 	}
-
-
 
 	.clip_bottom {
 		position: absolute;
@@ -431,7 +430,7 @@
 
 	.wrapper-noise-main-section-list_item {
 		position: relative;
-		z-index: 3;
+		z-index: 4;
 	}
 
 	.wrapper-noise-main_title:before {
@@ -451,7 +450,6 @@
 		flex-wrap: wrap;
 		padding: 20px 15px;
 		position: relative;
-		z-index: 3;
 	}
 
 	.wrapper-noise-main-section-list_item-h4 {
@@ -541,7 +539,6 @@
 		line-height: 26px;
 		font-weight: 900;
 		padding-top: 20px;
-		z-index: 3;
 	}
 
 	.wrapper-noise-main-section_p-span {

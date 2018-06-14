@@ -153,11 +153,40 @@
     color: #fff
 }
 @media (min-width: 768px) {
-
+    .wrapper_fluid_grey {
+        background: transparent;
+        padding-top: 0;
+        padding-bottom: 0;
+        overflow-x: hidden;
+        margin-top: -200px;
+        height: 1470px;
+    }
+    .desktop_bg-blue {
+        display: block;
+        width: 600px;
+        height: 320px;
+        margin: 0 auto;
+        background: url("../img/blue-bg.png");
+        position: relative;
+        top: 1100px;
+        z-index: -2;
+    }
+    .desktop_bg {
+        display: block;
+        background: url(../img/light-bg.png);
+        width: 100%;
+        min-width: 768px;
+        height: 1150px;
+        margin-bottom: -1230px;
+        clip-path: polygon(0 0, 100% 0, 100% 69%, 0 100%);
+        position: relative;
+        z-index: -1;
+    }
     .wrapper_grey-section {
         width: 690px;
         background-color: #f8f8f8;
         padding-bottom: 40px;
+        box-shadow: 0px 34px 77px -2px rgba(0,0,0,0.32);
     }
     .wrapper_grey-section-article-top {
         width: 100%;
@@ -171,7 +200,7 @@
         background-color: #00bcd4;
         position: absolute;
         top: 80px;
-        left: -25px;
+        left: -40px;
     }
     .wrapper_grey-section-article_top-title {
         text-align: left;
@@ -208,7 +237,7 @@
         width: 300px;
         height: 100px;
         top: -220px;
-        left: 500px;
+        left: 480px;
 
     }
     .article-bot-list-item-pic {
@@ -239,7 +268,8 @@
 }
 @media (min-width: 1151px) {
     .wrapper_grey-section {
-        padding-bottom: 0
+        padding-bottom: 0;
+        box-shadow: none;
     }
     .wrapper_fluid_grey {
         background: transparent;
@@ -247,27 +277,21 @@
         padding-bottom: 0;
         margin-top: -160px;
         overflow-x: hidden;
+        height: 2050px;
+        margin-bottom: -100px
 
     }
     .desktop_bg-blue {
-        display: block;
         width: 1080px;
         height: 320px;
-        margin: 0 auto;
-        background: url("../img/blue-bg.png");
-        position: relative;
         top: 1460px;
         left: 150px;
     }
     .desktop_bg {
-        display: block;
-        background: url(../img/light-bg.png);
-        width: 100%;
         min-width: 1380px;
         height: 1650px;
         margin-bottom: -1730px;
         clip-path: polygon(0 0, 100% 0, 100% 69%, 0 100%);
-        position: relative;
     }
     
     .desktop_bg-text {

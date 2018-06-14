@@ -395,6 +395,27 @@
 		z-index: -2;
 	}*/
 
+	.wrapper-noise-main-section:after {
+		content: url(../img/blue-otz-right.png);
+		display: block;
+		position: absolute;
+		left: 1200px;
+		top: 0px;
+		z-index: 4;
+	}
+
+
+	.wrapper-noise-main-section:before {
+		content: url(../img/blue-otz-left.png);
+		display: block;
+		position: absolute;
+		left: -399px;
+		top: 910px;
+		z-index: 2;
+	}
+
+
+
 	.clip_bottom {
 		position: absolute;
 		left: -400px;

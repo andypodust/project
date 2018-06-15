@@ -162,7 +162,7 @@
 
 .wrapper-darken-skills-description__item {
 	margin-bottom: 30px;
-	padding-left: 30px;
+	padding-left: 40px;
 	position: relative;
 	list-style: none;
 	z-index: 1;
@@ -199,18 +199,9 @@
 
 
 
-.wrapper-darken-skills-description__item-after:after{
-	content: "";
-	display: block;
-	width: 100px;
-	border-bottom: 1px solid #00bcd4;
-	position: relative;
-	z-index: 2;
-	bottom: 80px;
-	right: 15px;
-}
 
-.wrapper-darken-skills-description__item-after:nth-of-type(3) :after {
+
+.wrapper-darken-skills-description__item:nth-of-type(3):after {
 	content: "";
 	display: block;
 	width: 100px;
@@ -218,7 +209,18 @@
 	position: relative;
 	z-index: 2;
 	bottom: 100px;
-	right: 15px;
+	right: 30px;
+}
+
+.wrapper-darken-skills-description__item:not(:nth-of-type(3)):after{
+	content: "";
+	display: block;
+	width: 100px;
+	border-bottom: 1px solid #00bcd4;
+	position: relative;
+	z-index: 2;
+	bottom: 80px;
+	right: 30px;
 }
 
 

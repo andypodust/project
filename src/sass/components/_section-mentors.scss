@@ -211,9 +211,9 @@
         left: -150px;
         top: 870px; 
     }
-    .wrapper_prof > .link_begin {
+    .wrapper_prof-section > .link_begin {
         position: absolute;
-        bottom: 160px;
+        bottom: -65px;
         right: 100px;
         width: 290px;
         z-index: 1;
@@ -228,7 +228,7 @@
         position: relative;
         min-width: 1151px;
         height: 1200px;
-        margin-top: -160px;
+        margin-top: 230px;
         background: url(../img/bg-texture.png);
         background-repeat: no-repeat;
         background-position: 0px 150px;
@@ -269,7 +269,7 @@
     }
     .wrapper_prof-section-title {
         top: 125px;
-        font-size: 32px;
+        font-size: 42px;
     }
     .wrapper_prof-section-text_primary {
         top: 220px;
@@ -313,7 +313,7 @@
     }
     .position-desktop2 {
         position: absolute;
-        left: -150px;
+        left: -80px;
         top: 190px;
         z-index: 2;
     }
@@ -322,14 +322,16 @@
         left: -288px;
         top: 750px; 
     }
-    .wrapper_prof-section > .link_begin {
-        left: 80px;
-        width: 335px;
-        bottom: -290px;
+    .wrapper_prof-section> .link_begin {
+        position: absolute;
+        bottom: -320px;
+        right: 255px;
+        width: 340px;
+        z-index: 1;
     }
     .wrapper_prof-section-text_last {
         font-size: 18px;
-        left: 110px;
+        left: 150px;
         top: 328px;
     }
     .bg-texture-right {

@@ -121,6 +121,9 @@
 	padding-top: 30px;
 	border: 1px solid silver;
 	margin-bottom: 15px;
+	-webkit-box-shadow: 0px 7px 19px -1px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 7px 19px -1px rgba(0,0,0,0.5);
+box-shadow: 0px 7px 19px -1px rgba(0,0,0,0.5);
 }
 
 .section_skills-subtitle {

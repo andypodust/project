@@ -19,7 +19,7 @@
 	display: none;
 }
 .wrapper-lighten-section__title {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 700;
     font-family: $primary-font;
 	text-align: center;
@@ -141,7 +141,8 @@
     font-weight: 500;
     font-family: $extra-font;
     line-height: 1.5;
-    margin: auto;
+	margin: auto;
+	width: 268px;
 }
 .lighten-section-subtitle_achievements-block {
 	margin-top: 50px;
@@ -218,7 +219,6 @@
     text-transform: uppercase;	
 }
 .ittem__text {
-	padding-left: 10px;
 	font-size: 14px;
     font-family: $extra-font-second;
     line-height: 1.7;	

@@ -210,7 +210,7 @@
 	right: 15px;
 }
 
-.wrapper-darken-skills-description__item:nth-of-type(3) .wrapper-darken-skills-description__item-after:after {
+.wrapper-darken-skills-description__item-after:nth-of-type(3) :after {
 	content: "";
 	display: block;
 	width: 100px;

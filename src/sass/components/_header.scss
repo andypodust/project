@@ -206,7 +206,7 @@ input[type=checkbox] {
 }
 .header-article-list-item {
     margin: 0 auto;
-    width: 80%;
+    width: 290px;
     font-family: $primary-font;
     font-size: 14px;
     font-weight: 700;
@@ -237,6 +237,7 @@ input[type=checkbox] {
     font-family: $extra-font;
     font-size: 14px;
     font-weight: 700;
+    text-decoration: none;
 }
 .header-section-list_contacts-tel::after {
     content: "";
@@ -259,7 +260,7 @@ input[type=checkbox] {
     justify-content: stretch;
 }
 .header-section_start {
-    margin: 15px auto 0 auto;
+    margin: 40px auto 0 auto;
     padding: 5px 10px;
     font-family: $primary-font;
     text-align: center;

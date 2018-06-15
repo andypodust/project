@@ -3,7 +3,6 @@
     box-sizing: border-box
 }
 .wrapper_light {
-    background-image: url(../img/light-bg.png); 
     min-width: 320px;
     height: auto;
     padding-top: 50px;
@@ -121,9 +120,6 @@
     transform: translate(-50%, -50%) 
 }
 @media (min-width: 768px) {
-    .wrapper_light {
-        background-image: none
-    }
     .wrapper_light-section {
         width: 690px;
     }
@@ -172,7 +168,7 @@
         width: 220px;
         height: 2px;
         background-color: #000000; 
-        margin-left: -30px;
+        margin-left: -20px;
         margin-bottom: 20px;
     }
     .wrapper_light-section-text_last::after {
@@ -209,9 +205,6 @@
     
 }
 @media (min-width: 1151px) {
-    .wrapper_light {
-        background-image: none; 
-    }
     .wrapper_light-section{
         width: 1150px;
     }

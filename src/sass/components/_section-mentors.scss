@@ -123,7 +123,7 @@
     font-weight: 700;
 }
 .wrapper_prof-footer {
-    padding: 15px 0;
+    padding: 20px;
     background-color: #f0f0f0;
     font-family: $extra-font;
     text-align: center;
@@ -146,30 +146,34 @@
         min-width: 768px;
         position: relative;
         height: 1100px;
+        z-index: 0;
     }
     .wrapper_prof-section {
         width: 600px;
-        height: 1000px;
+        height: 1168px;
         position: absolute;
         right: 0;
+        top: -300px;
+        z-index: -1;
     }
     .wrapper_prof-section-title {
         position: absolute;
         left: -90px;
+        top: 300px;
     }
     .wrapper_prof-section-text_primary {
         position: absolute;
         width: 330px;
         text-align: left;
-        top: 110px;
+        top: 380px;
         left: 65px;
     }
     .wrapper_prof-section-text_last {
         position: absolute;
-        top: 200px;
-        left: 293px;
-        width: 280px;
-        text-align: left;
+        top: 475px;
+        left: 170px;
+        width: 308px;
+        text-align: justify;
     }
     .wrapper_prof-section-list-item {
         box-shadow: -14px 17px 0px 1px rgba(0,180,203,1);
@@ -195,29 +199,25 @@
     .position-desktop1 {
         position: absolute;
         left: -150px;
-        top: 33px;
+        top: 300px;
     }
     .position-desktop2 {
         position: absolute;
         left: -100px;
-        top: 73px;
+        top: 285px;
         z-index: 2;
     }
     .position-desktop3 {
         position: absolute;
-        left: -288px;
-        top: 640px; 
-    }
-
-    .position-tablet3 {
-        top: 658px;
         left: -150px;
+        top: 870px; 
     }
     .wrapper_prof-section > .link_begin {
         position: absolute;
-        bottom: 40px;
-        left: 220px;
-        width: 240px;
+        bottom: -75px;
+        left: 210px;
+        width: 290px;
+        z-index: 1;
     }
     .bg-texture-right {
         display: none;

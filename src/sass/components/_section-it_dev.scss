@@ -312,6 +312,9 @@
     }
 }
 @media (min-width:1151px){
+    wrap-it-dev {
+        min-width: 1151px;
+    }
     .wrap-it-dev_bg-grey {
         -webkit-clip-path: polygon(0 0, 100% 50%, 100% 100%, 0% 100%);
         clip-path: polygon(0 0, 100% 50%, 100% 100%, 0% 100%);

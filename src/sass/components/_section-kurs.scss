@@ -156,10 +156,9 @@
 	width: 210px;
 	margin: 0 auto;
 	padding-bottom: 30px;
-	list-style-type: decimal-leading-zero;
+	counter-reset: item;
+    list-style-type: none;
 }
-
-
 
 .block-html-title {
 	width: 170px;
@@ -178,6 +177,7 @@
 	line-height: 24px;
 	color: #242427;
 }
+
 .block-react-title, .block-back-end-title, .block-soft-title{
 	width: 160px;
 	margin: 0 auto 15px;
@@ -203,9 +203,24 @@
 	font-family: $secondary-font;
 	font-weight: 400;
 	margin-bottom: 25px;
-	list-style-type: decimal-leading-zero;
+	list-style: none;
+	position: relative;
+	padding-left: 7px;
 }
 
+.submenu-item-text:before {
+	content: counter(item, decimal-leading-zero) "."; 
+    counter-increment: item;
+    position: absolute;
+    top: 0px;
+    left: -25px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #242427;
+    z-index: 2;
+    font-family: $extra-font;
+}
 
 .submenu-item-text:last-of-type {
 	margin-bottom: 0px;
@@ -221,7 +236,6 @@
 .text-h3-extra {
 	font-weight: 800;
 }
-
 
 .block-html-title-tablet {
 	display: none;
@@ -307,6 +321,20 @@
 
 	.blcok-time_item-text {
 		padding: 0px 20px;
+	}
+
+	.submenu-item-text:before {
+		content: counter(item, decimal-leading-zero) "."; 
+	    counter-increment: item;
+	    position: absolute;
+	    top: 0px;
+	    left: -25px;
+	    font-size: 20px;
+	    line-height: 24px;
+	    font-weight: bold;
+	    color: #242427;
+	    z-index: 2;
+	    font-family: $extra-font;
 	}
 
 	.program-study {

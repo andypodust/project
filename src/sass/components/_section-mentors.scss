@@ -2,7 +2,6 @@
 .wrapper_prof {
     min-width: 320px;
     margin: 0 auto;
-    padding-top: 30px;
 }
 .wrapper_prof-section {
     background-image: url('../img/light-bg.png');
@@ -212,10 +211,10 @@
         left: -150px;
         top: 870px; 
     }
-    .wrapper_prof-section > .link_begin {
+    .wrapper_prof > .link_begin {
         position: absolute;
-        bottom: -75px;
-        left: 210px;
+        bottom: 160px;
+        right: 100px;
         width: 290px;
         z-index: 1;
     }

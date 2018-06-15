@@ -237,11 +237,15 @@
 }
 
 @media(min-width: 768px) {
+	.wrapper-lighten {
+		padding: 0;
+		margin-top: -100px;
+	}
 	.wrapper-lighten-section__article {
 		position: relative;
 	}
 	.wrapper-lighten__clip-path {
-		margin-top: -30px;
+		margin-top: -40px;
 		display: block;
 		background: url(../img/light-bg.png);
 		width: 100%;
@@ -441,6 +445,9 @@
 	}
 }
 @media(min-width: 1151px) {
+	.wrapper-lighten {
+		margin-top: -50px
+	}
 	.wrapper-lighten__blue-box-l {
 		display: block;
 		position: absolute;
@@ -464,7 +471,7 @@
 		position: relative;
 	}
 	.wrapper-lighten__clip-path {
-		height: 1700px;
+		height: 1890px;
 		clip-path: polygon(0 0, 100% 0, 100% 43%,0 30%);
 	}
 	.wrapper-lighten-section__title {

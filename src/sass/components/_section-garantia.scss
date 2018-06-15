@@ -220,6 +220,8 @@
 		background-color: #28282d;
 		background-image: url(../img/wrapper-darken-bg.png);
 		background-repeat: repeat;
+		position: relative;
+        z-index: 2;
 	}
 
 	.wrapper-darken_section {
@@ -560,7 +562,7 @@
 		width: 800px;
 		border-bottom: 1px solid #fff;
 		position: absolute;
-		top: 68px;
+		top: 69px;
 		left: -225px;
 	}
 

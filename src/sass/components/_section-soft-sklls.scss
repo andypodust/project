@@ -300,6 +300,7 @@
 		position: absolute;
 		bottom: 150px;
 		right: 0px;
+		z-index: 0;
 	}
 	.wrapper_fluid-dark__container1920--before:before {
 		content: url(../img/noi2.png);
@@ -415,6 +416,7 @@
 		width: 320px;
     	height: 70px;
     	line-height: 70px;
+    	z-index: 1;
 	}
 
 	

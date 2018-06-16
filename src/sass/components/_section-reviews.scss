@@ -130,6 +130,7 @@
     .wrapper_light-section-text {
         margin-left: 0
     }
+    
     .wrapper_light-section-title {
         text-align: left;
         font-size: 30px;
@@ -159,7 +160,7 @@
         justify-content: space-between
     }
     .wrapper_light-section-list {
-        width: 330px;
+        width: 290px;
     }
     .wrapper_light-section-list::after {
         display: block;
@@ -181,7 +182,7 @@
         bottom: 70px
     }
     .wrapper_light-section-text_last {
-        background-position-y: 120px;
+        background-position-y: 64px;
         margin-left: 0
     }
     .wrapper_light-section-article {
@@ -196,7 +197,7 @@
 
     }
     .wrapper_light-section-article-list-item_video {
-        width: 310px;
+        width: 315px;
         height: auto;
         margin-left: -10px;
         box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.29);

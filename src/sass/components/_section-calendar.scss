@@ -141,7 +141,7 @@
     }
     .wrapper_silver-section-menu {
         width: 490px;
-        margin-right: 0;
+        margin-right: 15px;
         margin-top: 30px;
         position: relative;
     }
@@ -197,6 +197,7 @@
         position: relative;
         top: 840px;
         left: 300px;
+        z-index: -3;
        
     }
     .first_silver-bg {

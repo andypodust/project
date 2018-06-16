@@ -28,9 +28,18 @@
     padding-top: 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
-    font-weight: 900;
+    font-weight: 700;
     text-transform: uppercase;
 }
+
+.wrap-it-dev-title:after {
+    content: "";
+    display: block;
+    width: 150px;
+    border-bottom: 2px solid #242427;
+    margin: 10px auto 0px;
+}
+
 .wrap-it-dev-text {
     padding: 20px 0;
     font-family: 'Montserrat', sans-serif;

@@ -368,7 +368,8 @@
     .wrapper_grey-section-article_top-title {
         font-size: 42px;
         width: 600px;
-        margin-left: 90px
+        margin-left: 90px;
+        padding-bottom: 0;
     }
     .wrapper_grey-section-article-top::before {
         width: 500px;
@@ -379,7 +380,7 @@
         width: 420px;
         height: 3px;
         left: 130px;
-        top: 365px;
+        top: 335px;
 
     }
     .wrapper_grey-section-article-top-text {
@@ -411,7 +412,7 @@
     }
     .wrapper_grey-section-article-bot-list-item:nth-child(2) {
         top: -140px;
-        left: 550px;
+        left: 490px;
     }
     .article-bot-list-item-pic {
         width: 460px;

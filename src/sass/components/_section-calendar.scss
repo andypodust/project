@@ -97,9 +97,24 @@
     padding: 10px 0 0 10px
 }
 @media (min-width: 768px) {
+    .wrapper_silver {
+        background: transparent;
+    }
+    .first_silver-bg {
+        display: block;
+        background: url(../img/light-bg.png);
+        width: 100%;
+        min-width: 768px;
+        height: 900px;
+        margin-bottom: -950px;
+        top: -100px;
+        clip-path: polygon(0 0, 100% 0, 100% 69%, 0 100%);
+        position: relative;
+        z-index: -2;
+    }
     .wrapper_silver-section {
         width: 720px;
-
+        margin-top: 60px
     }
     .wrapper_silver-section-title {
         width: 620px;

@@ -303,6 +303,10 @@
 		font-weight: 700;
 	}
 
+	.wrapper-darken-skills-description__item:nth-of-type(3) .wrapper-darken-skills-description__h3{
+		width: 300px;
+	}
+
 	.wrapper-darken_section-title_p-before:before {
 		content: " ";
 		display: block;
@@ -472,15 +476,26 @@
 		left: -45px;
 	}
 
-	.wrapper-darken-skills-description__item-after:after {
+	.wrapper-darken-skills-description__item:nth-of-type(3):after {
 		content: "";
 		display: block;
 		width: 100px;
 		border-bottom: 1px solid #00bcd4;
 		position: relative;
 		z-index: 2;
-		bottom: 65px;
-		right: 70px;
+		bottom: 60px;
+		left: -65px;
+	}
+
+	.wrapper-darken-skills-description__item:not(:nth-of-type(3)):after{
+		content: "";
+		display: block;
+		width: 100px;
+		border-bottom: 1px solid #00bcd4;
+		position: relative;
+		z-index: 2;
+		bottom: 60px;
+		left: -65px;
 	}
 }
 

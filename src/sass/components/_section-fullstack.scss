@@ -134,16 +134,16 @@
     font-weight: 700;
     margin-bottom: 20px
 }
-.link_begin {
+.wrapper_grey-section .link_begin {
     font-family: $primary-font;
     margin: 0 auto;
     display: block;
     text-align: center;
-    font-size: 12px;
-    font-weight: 800;
+    font-size: 14px;
+    font-weight: 600;
     text-transform: uppercase;
     color: #fff;
-    width: 250px;
+    width: 290px;
     height: 55px;
     background-image: linear-gradient(to right, #ffb41b, #fb193c);
     text-decoration: none;

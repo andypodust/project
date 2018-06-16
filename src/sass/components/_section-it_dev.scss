@@ -145,12 +145,12 @@
 .wrap-it-dev-cv_left-soft-item {
     position: relative;
     padding-bottom: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $secondary-font;
     font-size: 14px;
     color: #242427;
     line-height: 20px;
     padding-left: 12px;
-    font-weight: 900;
+    font-weight: 600;
 }
 .wrap-it-dev-cv_left-soft-item::before {
     position: absolute;
@@ -171,12 +171,12 @@
 .wrap-it-dev-cv_left-cv-item {
     position: relative;
     padding-bottom: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $secondary-font;
     font-size: 14px;
     color: #242427;
     line-height: 20px;
     padding-left: 4px;
-    font-weight: 900;
+    font-weight: 600;
 }
 .wrap-it-dev-cv_left-cv-item::before {
     position: absolute;
@@ -192,6 +192,7 @@
 .wrap-it-dev-cv_right {
     width: 290px;
     background: #efefef;
+    margin-top: 30px;
 }
 .wrap-it-dev-cv_right-sing {
     width: 290px;

@@ -98,12 +98,14 @@
     line-height: 24px;
     margin-bottom: 15px;
     text-transform: uppercase;
+    width: 265px;
 }
 .section_snowy-article-text {
     font-family: $secondary-font;
     font-size: 14px;
     line-height: 24px;
     font-weight: 600;
+    width: 280px;
 }
 .wrapper_snowy-section-list {
     margin-bottom: 30px;
@@ -139,6 +141,7 @@
 .wrapper_second_snowy>img {
     display: none;
 }
+
 @media all and (min-width: 768px) and (max-width: 1150px) {
     .wrapper_snowy {
         background-color: #fff;

@@ -56,8 +56,8 @@
     font-weight: 600;
     position: relative;
     line-height: 24px;
-    padding: 0 10px 10px 30px
-
+    padding: 0 10px 10px 30px;
+    width: 250px;
 }
 .blue-item::before {
     display: block;
@@ -93,7 +93,7 @@
     font-weight: 800;
     text-transform: uppercase;
     color: #fff;
-    width: 290px;
+    width: 270px;
     text-align: center;
     margin: 20px auto 20px auto;
 }
@@ -106,14 +106,19 @@
     font-weight: 800;
     text-transform: uppercase;
     color: #fff;
-    width: 250px;
     height: 55px;
     background-image: linear-gradient(to right, #ffb41b, #fb193c);
     text-decoration: none;
     line-height: 55px;
     border-radius: 5px;
     box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.29);
+    width: 250px;
 }
+
+.wrapper_suit-section-footer .link_begin {
+     width: 290px;
+}
+
 .link_begin:hover {
     box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.60);
     transition-duration: 0.2s

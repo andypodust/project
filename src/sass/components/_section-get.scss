@@ -80,6 +80,7 @@
     line-height: 20px;
     font-weight: 400;
     margin-bottom: 15px;
+    width: 240px;
 }
 .article_right-list {
     margin-bottom: 60px;
@@ -123,6 +124,7 @@
     margin-right: auto;
     text-align: center;
     margin-bottom: 25px;
+    width: 260px;
 }
 .article_right-text_primary>span {
     font-weight: 400;
@@ -136,7 +138,7 @@
     display: none;
 }
 .article_right-text_secondary {
-    padding: 15px 30px;
+    padding: 15px 15px;
     font-family: $secondary-font;
     font-weight: 400;
     font-size: 14px;

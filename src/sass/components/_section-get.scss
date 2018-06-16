@@ -246,6 +246,11 @@
         left: 0px;
         display: none;
     }
+
+    .article_right-list-item {
+        width: 100%;
+    }
+
     .article_right-list-item::before {
         left: -7%;
     }

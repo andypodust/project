@@ -28,9 +28,18 @@
     padding-top: 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
-    font-weight: 900;
+    font-weight: 700;
     text-transform: uppercase;
 }
+
+.wrap-it-dev-title:after {
+    content: "";
+    display: block;
+    width: 150px;
+    border-bottom: 2px solid #242427;
+    margin: 10px auto 0px;
+}
+
 .wrap-it-dev-text {
     padding: 20px 0;
     font-family: 'Montserrat', sans-serif;
@@ -62,14 +71,18 @@
 }
 .wrap-it-dev-cv_left-top-title {
     padding: 15px 0 0 100px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-family: $extra-font;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
     color: #242427;
     text-align: left;
 }
 .wrap-it-dev-cv_left-top-text {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $extra-font;
     font-size: 14px;
+    line-height: 32px;
+    font-weight: 400;
     color: #242427;
     text-align: left; 
     padding-left: 100px;
@@ -78,7 +91,6 @@
     padding: 0 10px;
 }
 .wrap-it-dev-cv_left-main-title {
-    margin-left: 30px;
     font-family: 'Ubuntu Mono', monospace;
     font-size: 20px;
     color: #242427;
@@ -100,12 +112,13 @@
 .wrap-it-dev-cv_left-tech-item {
     position: relative;
     padding-bottom: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $secondary-font;
     font-size: 14px;
     color: #242427;
     line-height: 20px;
-    font-weight: 900;
+    font-weight: 600;
     margin-left: -15px;
+    width: 230px;
 }
 .wrap-it-dev-cv_left-tech-item::before {
     position: absolute;
@@ -122,6 +135,7 @@
     color: #00bcd4;
     background: #242427;
     padding: 3px;
+    font-weight: 900;
 }
 .wrap-it-dev-cv_left-soft {
     list-style: none;
@@ -131,12 +145,12 @@
 .wrap-it-dev-cv_left-soft-item {
     position: relative;
     padding-bottom: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $secondary-font;
     font-size: 14px;
     color: #242427;
     line-height: 20px;
     padding-left: 12px;
-    font-weight: 900;
+    font-weight: 600;
 }
 .wrap-it-dev-cv_left-soft-item::before {
     position: absolute;
@@ -157,12 +171,12 @@
 .wrap-it-dev-cv_left-cv-item {
     position: relative;
     padding-bottom: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $secondary-font;
     font-size: 14px;
     color: #242427;
     line-height: 20px;
     padding-left: 4px;
-    font-weight: 900;
+    font-weight: 600;
 }
 .wrap-it-dev-cv_left-cv-item::before {
     position: absolute;
@@ -178,6 +192,7 @@
 .wrap-it-dev-cv_right {
     width: 290px;
     background: #efefef;
+    margin-top: 30px;
 }
 .wrap-it-dev-cv_right-sing {
     width: 290px;

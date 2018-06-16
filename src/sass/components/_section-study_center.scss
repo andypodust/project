@@ -245,6 +245,7 @@
 		padding: 0;
 		margin-top: -100px;
 		z-index: 1;
+		background: transparent;
 	}
 	.wrapper-lighten-section__article {
 		position: relative;
@@ -341,12 +342,14 @@
 	}
 	.section-list__company {
 		position: absolute;
-		top: 1140px;
+		top: 1125px;
 		left: 325px;
 		display: inline-block;
 		transform: rotate(90deg);
 		width: 290px;
-		word-spacing: 6px;
+		word-spacing: normal;
+		font-size: 21px;
+		font-weight: 600
 	}
 	.section-list__it-company {
 		position: absolute;
@@ -360,20 +363,26 @@
 		width: 400px;
 		position: absolute;
 		top: -10px;
-		right: 38px;
+		right: 20px;
+		border-bottom: 3px solid #000;
 	}
 	.section-list__item-transparent {
 		display: block;
 		background-color: transparent;
 	}
+	.lighten-section-subtitle_achievements-block {
+		margin-top: 0;
+	}
 	.lighten-section-subtitle_achievements  {
 		width: 100%;
 		text-align: left;
+		font-size: 18px
 	}
 	.lighten-section-subtitle_achievements--before:before {
-		width: 50%;
+		width: 60%;
 		margin-left: 0;
 		margin-bottom: 10px;
+		border-top: 3px solid #000;
 	}
 	.section-menu {
 		height: 785px;	

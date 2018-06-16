@@ -177,6 +177,7 @@
 	.wrapper-fluide-noise {
 		background: transparent;
 		padding-bottom: 60px;
+		margin-top: -180px;
 	}
 
 	.clip-path {
@@ -191,16 +192,20 @@
 		margin-bottom: -1395px; 
 	}
 
-/*	.wrapper-fluide-noise-block-blue {
+	.wrapper-noise-main-dop {
+		width: 768px;
+		position: relative;
+	}
+
+	.wrapper-noise-main-dop:after {
+		content: url(../img/blue-otz-right.png);
 		display: block;
-		width: 400px;
-		height: 280px;
-		background-color: #00bcd4;
 		position: absolute;
-		top: 0;
-		right: 0;
-		z-index: -4;
-	}*/
+		right: 70px;
+		top: 166px;
+		z-index: 0;
+	}
+
 
 	.wrapper-noise-main {
 		width: 690px;
@@ -228,12 +233,17 @@
 		left: 3px;
 	}
 
+	.wrapper-noise-main-section-list {
+		margin-bottom: 50px;
+	}
+
 
 	.wrapper-noise-main-section-list_item {
 		display: flex;
 		flex-direction: row;
 		align-items: flex-start;
 		margin-bottom: 10px;
+		box-shadow: 0px 0px 40px -1px rgba(0,0,0,0.29);
 	}
 
 	.wrapper-noise-main-section-list_item-img {
@@ -274,7 +284,7 @@
 		color: #5f5f5f;
 		position: absolute;
 		top: 25px;
-		right: 20px
+		right: 30px
 	}
 
 	.wrapper-noise-main-section-list_item-p {

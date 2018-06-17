@@ -684,11 +684,11 @@ box-shadow: 0px 7px 19px -1px rgba(0,0,0,0.5);
 	}
 
 	.program-titles_title {
-		width: 600px;
-		padding-top: 65px;
+		width: 0px;
+		padding-top: 50px;
 		position: absolute;
 		top: 0;
-		left: 50%;
+		left: 63%;
 		z-index: 5;
 	/*	outline: 1px solid red;*/
 	}
@@ -696,10 +696,14 @@ box-shadow: 0px 7px 19px -1px rgba(0,0,0,0.5);
 	.submenu-item-text {
 		font-size: 18px;
 		line-height: 24px;
-		width: 275px;
+		width: 311px;
 		margin-bottom: 30px;
 		padding-left: 10px;
 	/*	outline: 1px solid red;*/
+	}
+
+	.submenu-item-text:nth-of-type(4) {
+		width: 300px;
 	}
 
 	.block-bg-blue {

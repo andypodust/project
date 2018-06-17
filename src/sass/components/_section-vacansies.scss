@@ -228,9 +228,12 @@
    /* vacancy part 768px end*/
    @media (min-width:1151px){
        /* vacancies section 1151px start*/
-       .light-bg-768 {
+    .light-bg-768 {
         display: none;
-       }
+    }
+    .wrap-wraper {
+        background: none;
+    }
     .wraper_light {
         position: relative;
         width: 1151px;
@@ -251,8 +254,7 @@
         display: block;
     }
     /* vacancies section */
-    
-    .section_second-title {
+        .section_second-title {
         width: 580px;
         margin-left: 250px;
         text-align: left;
@@ -354,8 +356,8 @@
         height: 784px;
         position: absolute;
         background-image: url(../img/light-bg.png);
-        bottom: -297px;
-        right: 40px;
+        bottom: 70px;
+        right: -30px;
     }
     .bg-blue {
         display: block;
@@ -372,7 +374,7 @@
     .bg-bottom {
         width: 501px;
         height: 400px;
-        bottom: -189px;
+        bottom: 75px;
         left: 107px;
         z-index: -1;
     }

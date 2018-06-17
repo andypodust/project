@@ -147,7 +147,7 @@
 		margin-left: 90px;
 		margin-bottom: 0;
 		font-weight: 700;
-		
+
 	}
 	.wrapper_change-section__line {
 		display: block;
@@ -182,12 +182,22 @@
 		margin-bottom: 30px;
 	}
 	.wrapper_change-section__img {
-		box-shadow: -62px 49px 20px 5px hsla(4,0%,88%, .34);
 		top: -80px;	
 		left: -50px;	
 		width: 495px;
-		height: 660px;			
+		height: 660px;	
+		box-shadow: none;		
 	}
+
+	.wrapper_change-section__box-under-img:after {
+		content: url(../img/loh-shadow.png);
+		display: block;
+		position: absolute;
+		top: -30px;
+		left: -135px;
+		z-index: -2;
+	}
+
 	.wrapper_change-section__motivation {
 		margin-top: 110px;
 	}

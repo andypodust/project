@@ -573,8 +573,8 @@ box-shadow: 0px 7px 19px -1px rgba(0,0,0,0.5);
 	.block-time_item--before:before {
 		content: "Часа";
 		position: absolute;
-		top: 0;
-		right: 0;
+		top: 43px;
+		right: -5px;
 		transform: rotate(90deg);
 		font-size: 24px;
 		line-height: 24px;
@@ -585,8 +585,8 @@ box-shadow: 0px 7px 19px -1px rgba(0,0,0,0.5);
 	.block-time_item--befores:before {
 		content: "Часов";
 		position: absolute;
-		top: 0;
-		right: 0;
+		top: 43px;
+		right: -13px;
 		transform: rotate(90deg);
 		font-size: 24px;
 		line-height: 24px;

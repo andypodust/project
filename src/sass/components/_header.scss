@@ -427,6 +427,10 @@ input[type=checkbox] {
         }
         .header-article-text_bold {
             width: 67%;
+            margin-left: -15px;
+        }
+        .header-article-text_bold::after {
+            margin: 0 257px 0 auto;
         }
         .header-article-title {
             padding-left: 226px;
@@ -447,7 +451,8 @@ input[type=checkbox] {
         .header-article-list {
             width: 545px;
             text-align: justify;
-            margin-left: 155px;
+            padding-top: 120px;
+            margin-left: 126px;
         }
         .header-section {
             width: 358px;
@@ -456,11 +461,9 @@ input[type=checkbox] {
             right: 119px;
             top: 0;
         }
-        .header-article-list {
-            padding-top: 120px;
-        }
         .header-article-list-item {
             width: 100%;
+            font-size: 14px;
         }
         .header-article-list-item:last-child {
             margin-left: 65px;

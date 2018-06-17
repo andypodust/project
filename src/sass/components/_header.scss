@@ -396,6 +396,7 @@ input[type=checkbox] {
             display: block;
             font-family: $extra-font;
             font-size: 14px;
+            font-weight: 500;
             color: #fff;
             padding-left: 125px;
             margin-top: 15px;
@@ -478,7 +479,7 @@ input[type=checkbox] {
         }
         .hub-pic {
             position: absolute;
-            top: 125px;
+            top: 0px;
             right: -55px;
             display: block;
             width: 380px;
@@ -514,16 +515,17 @@ input[type=checkbox] {
         }
         .header-section-list {
             position: absolute;
-            top: 50px;
-            left: 134px;
+            top: 20px;
+            left: 330px;
         }
         .header-section-list-title {
             display: block;
             position: absolute;
-            top: -70px;
-            left: 28px;
-            width: 195px;
-            padding: 4px 0px;
+            top: -40px;
+            left: -10px;
+            width: 240px;
+            height: 35px;
+            line-height: 35px;
             background-color: #fff;
             border: 1px solid transparent;
             cursor: pointer;

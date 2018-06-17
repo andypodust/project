@@ -436,9 +436,21 @@
     .article_bot-list-item-def {
         display: block;
         margin: 0 auto;
-        font-size: 18px;
+        font-size: 16px;
         width: 470px;
+        line-height: 24px;
     }
+
+    .semi-bold {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .article_bot-list-item-def {
+        width: 430px;
+        margin: 0 auto;
+    }
+
     .wrapper_grey-section-article-bot-text {
         top: -620px;
         left: 650px;
@@ -467,9 +479,6 @@
         top: -350px;
         left: 250px;
         width: 320px;
-        height: 70px;
-        line-height: 70px;
-        margin-left: 490px;
         font-size: 16px
     }
 

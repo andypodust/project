@@ -351,14 +351,6 @@
         background-position: 0px 150px;
         background-size: 10%;
     }
-    .light-bg {
-        width: 822px;
-        height: 784px;
-        position: absolute;
-        background-image: url(../img/light-bg.png);
-        bottom: 100px;
-        right: -40px;
-    }
     .bg-blue {
         display: block;
         position: absolute;
@@ -377,6 +369,14 @@
         bottom: 75px;
         left: 107px;
         z-index: -1;
+    }
+    .light-bg {
+        width: 822px;
+        height: 784px;
+        position: absolute;
+        background-image: url(../img/light-bg.png);
+        bottom: 100px;
+        right: -40px;
     }
     /* teachers block 1151px end*/
    }

@@ -309,8 +309,9 @@
 @media (min-width: 1151px) {
     .wrapper_blue {
         padding-top: 520px;
-        background: url(../img/wrapper-bg-left.png) no-repeat left 600px,
-                    url(../img/wrapper-bg-right.png) no-repeat right 1000px,
+        padding-bottom: 100px;
+        background: url(../img/wrapper-bg-left.png) no-repeat left 800px,
+                    url(../img/wrapper-bg-right.png) no-repeat right 1200px,
                     url(../img/dark-bg.png);
     }
     
@@ -319,6 +320,7 @@
     }
     .wrapper_blue-section-title {
         font-size: 42px;
+        margin-top: 40px;
         width: 70%;
     }
     .wrapper_blue-section-text_start {

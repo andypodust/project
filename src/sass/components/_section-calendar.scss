@@ -202,8 +202,7 @@
     }
     .first_silver-bg {
         display: block;
-        background: url(../img/silver-bg-figure.png) no-repeat 800px 160px,
-                    url(../img/light-bg.png);
+        background: url(../img/light-bg.png);
         width: 100%;
         min-width: 1150px;
         height: 1250px;
@@ -212,6 +211,7 @@
         clip-path: polygon(0 0, 100% 0, 100% 69%, 0 100%);
         position: relative;
     }
+    
     .wrapper_silver-section {
         width: 1150px;
         margin-top: -200px;
@@ -243,7 +243,14 @@
     .wrapper_silver-section-title {
         font-size: 42px;
         width: 100%;
-        margin-bottom: 50px
+        margin-bottom: 50px;
+        position: relative;
+    }
+    .wrapper_silver-section-title::before {
+        content: url(../img/silver-bg-figure.png);
+        display: block;
+        position: absolute;
+        top: 110px;
     }
     .wrapper_silver-section-subtitle {
         font-size: 18px;

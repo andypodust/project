@@ -219,14 +219,14 @@
 @media (min-width:1151px) {
     .wrapper_suit {
         position: relative;
-        background: url(../img/check-x.png) no-repeat 90% 70%,#2c2b2f;
-        background-size: 30%;
+        background: url(../img/check-x.png) no-repeat 75% 60%,#2c2b2f;
+        background-size: 20%;
     }
     .wrapper_suit-section-title::after {
-        left: 150px;
+        left: 640px;
         height: 850px;
         // top: 150px;
-        background-size: 35%
+        background-size: 25%
     }
     .wrapper_suit-section-title {
         font-size: 42px;

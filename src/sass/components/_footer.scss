@@ -104,15 +104,15 @@
 }
 @media (min-width:1151px){
     .wrap-footer {
-        width: inherit;
+        min-width: 1151px;
     }
     .footer {
-        width: 1151px;
+        min-width: 1151px;
     }
     .footer-contacts {
-        margin: 0px auto 0 210px;
+        margin: 0px auto 0 35px;
     }
     .footer-social {
-        margin: 45px 190px 0 0;
+        margin: 45px 65px 0 0;
     }
 }

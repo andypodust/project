@@ -366,9 +366,9 @@
         background: url(../img/blue-bg.png);
     }
     .wrap-it-dev_bg-blue-top {
-        width: 300px;
+        width: 450px;
         height: 400px;
-        top: 180px;
+        top: 260px;
         left: 235px;
         z-index: -2;
     }
@@ -380,14 +380,13 @@
         z-index: -1;
     }
     .wrap-it-dev-text {
-        padding: 50px 0;
+        padding: 35px 0;
     }
     .wrap-it-dev-cv-bg-dotted_section-top {
         display: block;
         position: absolute;
-        top: 0px;
-        right: 0;
-        width: 30%;
+        right: 49px;
+        width: 19%;
         z-index: 1;
     }
     .wrap-it-dev-cv-bg-dotted_section-right {
@@ -396,34 +395,36 @@
         top: 177px;
         left: -227px;
         width: 30%;
+        z-index: -1;
     }
     .wrap-it-dev-cv-bg-dotted_section-bottom {
         display: block;
         position: absolute;
         bottom: 0px;
-        left: -115px;
+        left: -168px;
         width: 58%;
     }
     .wrap-it-dev-cv {
-        width: 750px;
+        width: 1151px;
         position: relative;
     }
     .wrap-it-dev-cv_left,
     .wrap-it-dev-cv_right {
-        width: 375px;
+        width: 550px;
     }
     .wrap-it-dev-cv_right {
         background-color: #efefef;
         background-image: none;
         position: relative;
+        margin-top: 0;
     }
     .wrap-it-dev-cv_left-top {
         width: 373px;
         height: 89px;
-        margin: -18px auto auto;
+        margin: 0px auto auto 0;
     }
     .wrap-it-dev-cv_left-top::after {
-        width: 100%;
+        width: 150%;
     }
     .wrap-it-dev_bg-grey-right {
         display: block;
@@ -450,6 +451,32 @@
     }
     .wrap-it-dev-cv_right-form > .link_begin {
         width: 290px;
-        margin-top: 90px;
+        margin-top: 45px;
+    }
+    .wrap-it-dev-cv_left-main-title {
+        margin-left: 30px;
+    } 
+    .wrap-it-dev-cv_left-tech,
+    .wrap-it-dev-cv_left-soft,
+    .wrap-it-dev-cv_left-cv {
+        margin-left: 60px;
+    }
+    .wrap-it-dev-cv_right-sing-title:after {
+        display: none;
+    }
+    .wrap-it-dev-cv_right-sing-text:before {
+        margin: 20px auto 5px;
+    }
+    .wrap-it-dev-cv_right-form-row>input[type=text] {
+        width: 210px;
+    } 
+    .wrap-it-dev-cv_right-form-row>input[type=email] {
+        width: 210px;
+    } 
+    .wrap-it-dev-cv_right-form-row>input[type=tel] {
+        width: 210px;
+    }
+    .marg-left {
+        margin-left: 26px;
     }
 }

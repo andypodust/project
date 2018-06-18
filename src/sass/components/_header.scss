@@ -456,10 +456,10 @@ input[type=checkbox] {
             margin-left: 126px;
         }
         .header-section {
-            width: 560px;
-            height: 930px;
+            width: 370px;
+            height: 900px;
             background-color: #242427;
-            right: 119px;
+            right: 100px;
             top: 0;
         }
         .header-article-list-item {
@@ -479,10 +479,10 @@ input[type=checkbox] {
         }
         .hub-pic {
             position: absolute;
-            top: 0px;
-            right: -55px;
+            top: 85px;
+            right: -70px;
             display: block;
-            width: 380px;
+            width: 293px;
             height: 620px;
             background-image: url(../img/hud.png);
             background-repeat: no-repeat;
@@ -516,13 +516,13 @@ input[type=checkbox] {
         .header-section-list {
             position: absolute;
             top: 20px;
-            left: 330px;
+            left: 160px;
         }
         .header-section-list-title {
             display: block;
             position: absolute;
             top: -40px;
-            left: -10px;
+            left: -37px;
             width: 240px;
             height: 35px;
             line-height: 35px;
@@ -541,7 +541,9 @@ input[type=checkbox] {
             background-color: #000;
             border: 1px solid #fff;
             color: #fff;
-    
+        }
+        .header-section-list_contacts-tel {
+            margin-top: 30px;
         }
         .header-section-list_contacts-tel::after {
             content: "";

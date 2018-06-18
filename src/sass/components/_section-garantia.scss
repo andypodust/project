@@ -500,11 +500,7 @@
 }
 
 @media screen and (min-width: 1151px) {
-
-	.wrap-darken {
-		margin-top: 350px;
-	}
-
+	
 	.wrapper-darken_section {
 		width: 1151px;
 		padding-top: 0px;
@@ -512,9 +508,6 @@
 		position: relative;
 		z-index: 1;
 	}
-
-	
-
 	
 	.wrapper-darken_section:after {
 		content: url(../img/wrapper-darken-desctop.png);
@@ -523,8 +516,6 @@
 		bottom: 80px;
 		right: -370px;
 	}
-
-
 
 	.wrapper-darken_section-title {
 		width: 573px;

@@ -383,7 +383,7 @@ input[type=checkbox] {
     @media (min-width:1151px){
         .wrapper_fluid {
             min-width: 1151px;
-            height: 845px;
+            height: 840px;
             background-color: #26262b;
             background-position: 60px -200px;
             background-repeat: no-repeat;
@@ -392,7 +392,15 @@ input[type=checkbox] {
             width: 1151px;
             margin: 0 auto;
         }
+        .header-logo-text-grand {
+            font-size: 15px;
+            font-weight: 600;
+            width: 180px;
+        }
         .header-logo-text-small {
+            font-size: 15px;
+            font-weight: 600;
+            opacity: 0.8;
             display: block;
             font-family: $extra-font;
             font-size: 14px;
@@ -405,13 +413,14 @@ input[type=checkbox] {
             display: block;
             position: absolute;
             top: 510px;
-            left: -160px;
+            left: -520px;
             transform: rotate(90deg);
             color: #fff;
             font-family: $primary-font;
             font-size: 14px;
         }
         .header-text_blue {
+            font-size: 18px;
             color: #00bcd4;
         }
         .header-text_blue::before {
@@ -424,105 +433,114 @@ input[type=checkbox] {
             left: -128px;
         }
         .header-article {
-            padding-top: 120px;
+            margin-left: -100px;
+            padding-top: 175px;
         }
         .header-article-text_bold {
-            width: 67%;
-            margin-left: -15px;
+            width: 400px;
+            font-size: 26px;
+            font-weight: 500;
+            text-align: right;
+            margin-left: 220px;
         }
         .header-article-text_bold::after {
-            margin: 0 257px 0 auto;
+            margin-top: 12px;
+            width: 400px;
+            text-align: right;
+            font-size: 20px;
         }
         .header-article-title {
-            padding-left: 226px;
-            width: 275px;
+            text-align: left;
+            font-size: 64px;
             text-align: right;
-            font-size: 33px;
-            width: 500px;
+            width: 550px;
+            margin-left: 70px;
+            margin-bottom: 90px;
         }
         .header-article-title::after {
             display: none;
         }
         .header-article-title::before {
+            margin-left: 25px;
+            width: 630px;
             content: "";
             display: table;
-            width: 567px;
             border-top: 5px solid #00bcd4;
         }
         .header-article-list {
-            width: 545px;
+            width: 650px;
             text-align: justify;
-            padding-top: 120px;
-            margin-left: 126px;
+            margin-left: 0px;
         }
         .header-section {
             width: 370px;
             height: 900px;
             background-color: #242427;
-            right: 100px;
+            right: -30px;
             top: 0;
         }
         .header-article-list-item {
-            width: 100%;
-            font-size: 14px;
+            widows: 520px;
+            text-align: right;
+            padding-top: 0px;
+            font-size: 16px;
         }
-        .header-article-list-item:last-child {
-            margin-left: 65px;
-        }
+    
         .header-article-list-item:first-child::before {
             content: "";
-            display: inline-block;
-            width: 10%;
-            border-top: 1px solid #00bcd4;
+            position: absolute;
+            left: -175px;
+            bottom: 35px;
+            width: 13%;
+            border-top: 2px solid #00bcd4;
             padding-top: 4px;
             margin-right: 10px;
         }
         .hub-pic {
             position: absolute;
-            top: 85px;
-            right: -70px;
+            top: 70px;
+            right: -280px;
             display: block;
-            width: 293px;
-            height: 620px;
+            width: 430px;
+            height: 780px;
             background-image: url(../img/hud.png);
             background-repeat: no-repeat;
             background-size: 87%;
         }
         .header-section_start-desktop {
             position: absolute;
-            top: 75px;
-            left: -40px;
+            top: 125px;
+            left: -30px;
             transform: rotate(90deg);
             z-index: 1;
-            width: 135px;
             border: none;
             font-family: $primary-font;
             text-align: center;
             color: #fff;
-            font-size: 14px;
+            font-size: 22px;
             text-transform: uppercase;
-            font-weight: 700;
+            font-weight: 600;
         }
         .header-section_start-desktop::before {
             content: "";
             display: table;
-            width: 108%;
+            width: 125%;
             border-top: 1px solid #00bcd4;
             padding-top: 4px;
             position: absolute;
             top: -8px;
-            left: -15px;
+            left: -55px;
         }
         .header-section-list {
             position: absolute;
-            top: 20px;
-            left: 160px;
+            top: 40px;
+            left: 290px;
         }
         .header-section-list-title {
             display: block;
             position: absolute;
-            top: -40px;
-            left: -37px;
+            top: -60px;
+            left: 30px;
             width: 240px;
             height: 35px;
             line-height: 35px;
@@ -531,7 +549,7 @@ input[type=checkbox] {
             cursor: pointer;
             color: #000;
             text-transform: uppercase;
-            font-size: 14px;
+            font-size: 16px;
             font-weight: 700;
             font-family: $primary-font;
             text-align: center;
@@ -542,8 +560,14 @@ input[type=checkbox] {
             border: 1px solid #fff;
             color: #fff;
         }
+        .header-section-list {
+            width: 300px;
+        }
+        .header-section-list_contacts-age {
+            font-size: 16px;
+        }
         .header-section-list_contacts-tel {
-            margin-top: 30px;
+            font-size: 20px;
         }
         .header-section-list_contacts-tel::after {
             content: "";
@@ -570,15 +594,20 @@ input[type=checkbox] {
         }
         .flex-wrap {
             position: absolute;
-            top: 237px;
-            right: 142px;
+            top: 300px;
+            right: 175px;
             flex-direction: column;
             width: 290px;
         }
         .flex-wrap_header-section-title {
+            font-size: 22px;
+            width: 240px;
+            font-weight: 500;
+            text-align: left;
+            line-height: 1.4;
             border-right: none; 
             border-bottom: 1px solid #fff;
-            padding-bottom: 14px;
+            padding-bottom: 10px;
         }
         .flex-wrap_header-section-list {
             display: block;
@@ -587,13 +616,18 @@ input[type=checkbox] {
            
         }
         .flex-wrap_header-section-list_qualities {
+            font-size: 20px;
             margin: 0 0 20px 0; 
+            width: 180px;
+            font-weight: 500;
+            line-height: 1.5;
+            opacity: 0.8
         }
         .header-section-button {
             display: block;
             position: absolute;
-            top: 703px;
-            left: 48px;
+            bottom: 41px;
+            left: 65px;
             width: 260px;
             height: 50px;
             padding: 10px 10px;
@@ -644,7 +678,7 @@ input[type=checkbox] {
            outline: none;
 	 }
         .flex-wrap_header-section-list :not(:last-child){
-	    margin: 15px 50px 45px 0px;
+	    margin: 15px 50px 25px 0px;
 	}
     }
         /* header section 1151px end */

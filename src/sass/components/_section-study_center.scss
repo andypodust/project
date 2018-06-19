@@ -530,7 +530,11 @@
 		font-weight: 800;
 	}
 	.article-menu__text {
-  		font-size: 18px;
+		  font-size: 18px;
+		  width: 430px;
+	}
+	.article-menu__text--after::after {
+		top: -31px
 	}
 	.article-menu {
 		height: 300px;

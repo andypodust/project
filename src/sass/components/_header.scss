@@ -232,7 +232,7 @@ input[type=checkbox] {
 }
 .header-section-list_contacts-tel {
     margin-bottom: 10px;
-    margin-left: 20px;
+    margin-left: 50px;
     color: #00bcd4;
     font-family: $extra-font;
     font-size: 14px;
@@ -246,7 +246,7 @@ input[type=checkbox] {
     border: 1px solid #00bcd4;
 }
 .header-section-list_contacts-age {
-    margin-left: 40px;
+    margin-left: 50px;
     color: #fff;
     font-family: $primary-font;
     font-size: 13px;
@@ -473,10 +473,10 @@ input[type=checkbox] {
             margin-left: 0px;
         }
         .header-section {
-            width: 370px;
+            width: 550px;
             height: 900px;
             background-color: #242427;
-            right: -30px;
+            right: -56px;
             top: 0;
         }
         .header-article-list-item {
@@ -485,7 +485,6 @@ input[type=checkbox] {
             padding-top: 0px;
             font-size: 16px;
         }
-    
         .header-article-list-item:first-child::before {
             content: "";
             position: absolute;
@@ -534,13 +533,13 @@ input[type=checkbox] {
         .header-section-list {
             position: absolute;
             top: 40px;
-            left: 290px;
+            left: 250px;
         }
         .header-section-list-title {
             display: block;
             position: absolute;
             top: -60px;
-            left: 30px;
+            left: 4px;
             width: 240px;
             height: 35px;
             line-height: 35px;

@@ -6,6 +6,7 @@
 .wrapper_prof-section {
     background-image: url('../img/light-bg.png');
     padding: 30px 0;
+    height: 1700px;
 }
 .wrapper_prof-section-title {
     font-family: $primary-font;
@@ -54,6 +55,7 @@
     margin: 15px auto;
     padding: 0;
     width: 290px;
+    position: relative;
 }
 .wrapper_prof-section-list-item {
     list-style: none;
@@ -139,6 +141,8 @@
 .wrapper_prof-section .link_begin {
     margin-top: 30px;
     width: 290px;
+    position: absolute;
+    bottom: -505px;
 }
 @media (min-width:768px){
     /* teachers part 768px start */
